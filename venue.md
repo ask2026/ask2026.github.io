@@ -26,5 +26,5 @@ Options typically include:
 
 ## Nearby events (same week)
 
-- Spring School on Symmetric Cryptography: **16–18 March 2026**
-- FSE/ToSC 2026: **23–27 March 2026** (conference venue: Parkroyal Hotel on Beach Road)
+- [Spring School on Symmetric Cryptography](): **16–18 March 2026**
+- [FSE/ToSC 2026](https://fse.iacr.org/2026/): **23–27 March 2026** (conference venue: Parkroyal Hotel on Beach Road)

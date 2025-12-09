@@ -20,12 +20,11 @@ permalink: /
     </div>
 
     <div class="d-flex flex-wrap gap-2">
-      <a class="btn btn-primary btn-lg" href="{{ '/registration/' | relative_url }}">Registration (coming soon)</a>
-      <a class="btn btn-outline-light btn-lg" href="{{ '/program/' | relative_url }}">Draft program</a>
+      <a class="btn btn-primary btn-lg" href="{{ '/program/' | relative_url }}">Draft program</a>
     </div>
 
     <p class="mb-0 opacity-75">
-      The workshop is held just after the Spring School on Symmetric Cryptography (16–18 March 2026) and before FSE/ToSC 2026 (23–27 March 2026, Singapore).
+      The workshop is held just after the Spring School on Symmetric Cryptography (16–18 March 2026) and before [FSE/ToSC 2026](https://fse.iacr.org/2026/) (23–27 March 2026, Singapore).
     </p>
   </div>
 </div>

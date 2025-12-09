@@ -8,7 +8,7 @@ Invitation is not sent yet.
 
 ## What to expect
 
-We plan to publish:
+We plan to:
 
 - Sent invitation letters
 - Fee information: free
