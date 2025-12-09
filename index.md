@@ -15,7 +15,7 @@ permalink: /
     <div>
       <h1 class="display-5 fw-semibold mb-2">ASK 2026 — Singapore</h1>
       <p class="lead mb-0">
-        <strong>19–21 March 2026</strong> · Nanyang Technological University (The Hive), Singapore
+        <strong>19–21 March 2026</strong> · Nanyang Technological University, Singapore
       </p>
     </div>
 
