@@ -24,7 +24,7 @@ permalink: /
     </div>
 
     <p class="mb-0 opacity-75">
-      The workshop is held just after the Spring School on Symmetric Cryptography (16–18 March 2026) and before [FSE/ToSC 2026](https://fse.iacr.org/2026/) (23–27 March 2026, Singapore).
+      The workshop is held just after the Spring School on Symmetric Cryptography (16–18 March 2026) and before <a href="https://fse.iacr.org/2026">FSE/ToSC 2026</a> (23–27 March 2026, Singapore).
     </p>
   </div>
 </div>
@@ -60,10 +60,10 @@ ASK has been held to promote research on symmetric-key cryptography in Asia sinc
 
 ## Scope (non-exhaustive)
 
-- Cryptanalysis of cryptographic primitives: block ciphers, stream ciphers, hash functions, permutations, MACs, authenticated encryption, etc.
-- Cryptographic primitive design: quantum-resistant large-state ciphers, low-latency designs, and designs friendly to privacy-preserving computation.
-- Provable security: modes of operation, including authenticated encryption and MACs.
-- Quantum and AI-assisted cryptanalysis: quantum algorithms; deep learning/reinforcement learning distinguishers and key recovery.
-- Implementations and side-channel analysis: high-performance software/hardware, power/EM analysis, and countermeasures.
+- <strong>Cryptanalysis of cryptographic primitives</strong>: block ciphers, stream ciphers, hash functions, permutations, MACs, authenticated encryption, etc.
+- <strong>Cryptographic primitive design</strong>: quantum-resistant large-state ciphers, low-latency designs, and designs friendly to privacy-preserving computation.
+- <strong>Provable security</strong>: modes of operation, including authenticated encryption and MACs.
+- <strong>Quantum and AI-assisted cryptanalysis</strong>: quantum algorithms; deep learning/reinforcement learning distinguishers and key recovery.
+- <strong>Implementations and side-channel analysis</strong>: high-performance software/hardware, power/EM analysis, and countermeasures.
 
 For more details, see the pages on the draft <a href="{{ '/program/' | relative_url }}">program</a> and <a href="{{ '/groups/' | relative_url }}">working groups</a>.
