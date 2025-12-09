@@ -1,0 +1,23 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Event"
+    children:
+      - title: "Program"
+        url: "/program/"
+      - title: "Invited Speakers"
+        url: "/invited/"
+      - title: "Group Sessions"
+        url: "/groups/"
+      - title: "Contact"
+        url: "/contact/"
+  - title: "Registration"
+    url: "/registration/"
+  - title: "Practical Information"
+    children:
+      - title: "Venue and Travel"
+        url: "/venue/"
+      - title: "Accommodation"
+        url: "/accommodation/"
+  - title: "Previous Workshops"
+    url: "/previous/"

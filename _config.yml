@@ -1,0 +1,17 @@
+title: "ASK 2026"
+description: "The 12th Asian-workshop on Symmetric Key Cryptography (ASK 2026)"
+url: "https://ask2026.github.io"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Build settings
+permalink: pretty
+timezone: Asia/Singapore
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

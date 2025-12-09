@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include header.html %}
+
+  <main class="site-main">
+    <div class="container py-4">
+      {% if page.show_title != false %}
+        <header class="page-header mb-4">
+          <h1 class="h2 mb-1">{{ page.title }}</h1>
+          {% if page.subtitle %}
+            <p class="text-muted mb-0">{{ page.subtitle }}</p>
+          {% endif %}
+        </header>
+      {% endif %}
+
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
