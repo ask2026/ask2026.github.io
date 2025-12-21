@@ -11,18 +11,17 @@ permalink: /contact/
 - Zhenzhen Bao (Tsinghua University, Beijing, China)
 - Eik List (Nanyang Technological University, Singapore)
 
-**Experienced organizers at NTU**
-
-- Jian Guo
-- Thomas Peyrin
-
 **Local organizers**
 
-- Xingran Li, Wenjie Nan, Yiran Yao, Tianyu Zhang, Liu Zhang (NTU)
+- Xingran Li, Wenjie Nan, Yiran Yao, Tianyu Zhang (NTU)
 - Jinyu Lu, Huina Li, Shiqi Hou (Tsinghua University)
+
+**Advisor**
+
+- Jian Guo
 
 ## Contact email
 
 - ask2026@googlegroups.com
-- zzbao@tsinghua.edu.cn
+- zzbao@mail.tsinghua.edu.cn
 - elist@posteo.net
