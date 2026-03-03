@@ -19,8 +19,8 @@ ASK 2026 features working-group discussions in the afternoons. We aim to form se
 ## WG2 — Design of cryptographic primitives
 
 - WG2-1: Provable security of symmetric cryptography; design of modes
-- WG2-2: Design of new block ciphers, stream ciphers, symmetric encryption
-- WG2-3: Design of quantum-resistant large-state ciphers
+- WG2-2: Design of new block ciphers, stream ciphers
+- WG2-3: Design of quantum-resistant large-state permutations, hash functions, and authenticated encryptions
 
 ## WG3 — Efficient and secure implementation of symmetric cryptography
 

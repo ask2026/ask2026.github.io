@@ -15,7 +15,7 @@ permalink: /
     <div>
       <h1 class="display-5 fw-semibold mb-2">ASK 2026 — Singapore</h1>
       <p class="lead mb-0">
-        <strong>19–21 March 2026</strong> · Nanyang Technological University, Singapore
+        <strong>19–22 March 2026</strong> · Nanyang Technological University, Singapore
       </p>
     </div>
 
@@ -38,6 +38,7 @@ ASK has been held to promote research on symmetric-key cryptography in Asia sinc
     <h3>Format</h3>
     <p class="mb-0">Invited talks in the mornings</p>
     <p class="mb-0">Working groups in the afternoons</p>
+    <p class="mb-0">Free working groups in the morning of the last day</p>
   </div>
   <div class="callout">
     <h3>Who should attend?</h3>
