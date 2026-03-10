@@ -22,4 +22,4 @@ On-site registration will take place at the **SPMS Atrium**, School of Physical 
 
 ### SPMS Atrium
 
-![SPMS Atrium, NTU]({{ '/assets/images/location_atrium.png' | relative_url }})
+![SPMS Atrium, NTU](/assets/images/location_atrium.png)
