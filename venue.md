@@ -6,8 +6,8 @@ permalink: /venue/
 
 ## Venue
 
-**Nanyang Technological University (NTU), Singapore**  
-Workshop rooms: **The Hive (rooms TBC)**.
+**Nanyang Technological University (NTU), Singapore**
+Workshop rooms: **[The Hive](https://goo.gl/maps/mG3om1hxgET2) & [SPMS](https://goo.gl/maps/oPbRVcHvoun) (rooms TBC)**.
 
 NTU is located in the western part of Singapore and is well connected via public transport and taxis.
 
@@ -20,7 +20,9 @@ Singapore is served by **Changi Airport (SIN)** with extensive international con
 Options typically include:
 
 - **Taxi / ride-hailing** (most convenient, door-to-door).
-- **Public transport** (MRT + bus).
+- **Public transport** (MRT + bus) Mass Rapid Transit (MRT) system:
+  - 1 hour from Changi airport to the city centre,
+  - 1 hour from the city centre to NTU
 
 > Practical travel pointers and campus directions will be posted here closer to the event.
 
