@@ -4,10 +4,6 @@ title: "Registration"
 permalink: /registration/
 ---
 
-## What to expect
-
-We plan to:
-
 - Fee information: free
 - Capacity limits: about 100
 - Visa support information:
@@ -22,6 +18,7 @@ On-site registration will take place at the **SPMS Atrium**, School of Physical 
 |--------------------------|---------------|
 | Wednesday, 18 March 2026 | 17:00 – 20:00 |
 | Thursday, 19 March 2026  | 08:00 – 09:00 |
+
 
 ### SPMS Atrium
 
