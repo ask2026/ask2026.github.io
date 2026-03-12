@@ -78,7 +78,7 @@ permalink: /venue/
     <div class="col-md-6 d-flex justify-content-center">
       <img 
         src="/assets/images/ewl_adjustment_route.png" 
-        alt="EWL 2026 Service Adjustment Map - Affected Stations" 
+        alt="EWL 2026 Service Adjustment Map - Route" 
         class="img-fluid rounded shadow-sm" 
         style="cursor: zoom-in; max-width: 90%;"
         data-bs-toggle="modal" 
@@ -89,7 +89,7 @@ permalink: /venue/
     <div class="col-md-6 d-flex justify-content-center">
       <img 
         src="/assets/images/ewl_adjustment_shuttle_bus.png"
-        alt="EWL 2026 Service Adjustment - NTU Transit Alternatives" 
+        alt="EWL 2026 Service Adjustment - Shuttle Bus" 
         class="img-fluid rounded shadow-sm" 
         style="cursor: zoom-in; max-width: 72%;"
         data-bs-toggle="modal" 
@@ -113,7 +113,7 @@ permalink: /venue/
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="ewlMapModal1Label">EWL 2026 Service Adjustment Map - Affected Stations</h5>
+        <h5 class="modal-title" id="ewlMapModal1Label">EWL 2026 Service Adjustment Map - Affected Route</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body p-0">
@@ -128,11 +128,11 @@ permalink: /venue/
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="ewlMapModal2Label">EWL 2026 Service Adjustment - NTU Transit Alternatives</h5>
+        <h5 class="modal-title" id="ewlMapModal2Label">EWL 2026 Service Adjustment - Shuttle Bus</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body p-0">
-        <img src="/assets/images/ewl_adjustment_shuttle_bus.png" alt="EWL 2026 NTU Transit Alternatives" class="img-fluid w-100">
+        <img src="/assets/images/ewl_adjustment_shuttle_bus.png" alt="Shuttle Bus es" class="img-fluid w-100">
       </div>
     </div>
   </div>
