@@ -1,0 +1,17 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/
+
+# Ruby
+*.gem
+Gemfile.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
