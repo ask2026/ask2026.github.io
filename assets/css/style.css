@@ -1,51 +1,370 @@
-/* Minimal custom styling on top of Bootstrap. */
+/* 全局样式微调 - 保留活力且协调的主色调 */
 :root {
-  --ask-hero-bg: radial-gradient(1200px circle at 10% 10%, rgba(13,110,253,.18), transparent 55%),
-                 radial-gradient(1000px circle at 90% 0%, rgba(25,135,84,.18), transparent 45%),
-                 radial-gradient(1000px circle at 60% 100%, rgba(220,53,69,.14), transparent 50%),
-                 #0b1220;
+  --primary-color: #1e5a8c; /* 深海蓝主色 */
+  --secondary-color: #4a89bc; /* 浅蓝辅助色 */
+  --light-color: #f8fafc;
+  --text-muted: #64748b;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.12);
+  --transition: all 0.3s ease;
 }
 
-.site-main a { text-decoration-thickness: .08em; text-underline-offset: .15em; }
+/* 导航栏优化 - 修复默认margin导致的空白 */
+.navbar {
+  background-color: var(--primary-color) !important;
+  box-shadow: var(--shadow-sm);
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 0 !important;
+  border: none;
+}
 
+/* 导航栏文字/链接样式 */
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.nav-link:hover {
+  color: #e2e8f0 !important;
+  transform: translateY(-1px);
+}
+
+/* 导航栏响应式按钮 */
+.navbar-toggler {
+  border-color: rgba(255,255,255,0.2);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* 首页专属Hero - 核心视觉模块 */
 .hero {
-  background: var(--ask-hero-bg);
-  color: #fff;
-  border-radius: 1rem;
-  padding: 2.5rem 2rem;
-  overflow: hidden;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 3rem 2rem !important;
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .hero .badge {
-  border: 1px solid rgba(255,255,255,.25);
-  background: rgba(255,255,255,.10);
-  color: #fff;
+  background-color: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  font-weight: 500;
+  transition: var(--transition);
 }
 
-.hero a { color: #fff; }
-.hero a.btn { color: #fff; }
+.hero .badge:hover {
+  background-color: rgba(255,255,255,0.3);
+  transform: translateY(-2px);
+}
 
+.hero .btn-primary {
+  background-color: #3b82f6;
+  color: white !important;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: var(--transition);
+}
+
+.hero .btn-primary:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* 轻量化页面头部 - 适配工作组/日程/场地页 */
+.page-header {
+  background: linear-gradient(135deg, var(--primary-color) 0.5%, var(--secondary-color) 100%);
+  color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.page-header p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+/* 极简标题栏 - 适配联系/注册/住宿/往届/讲者页 */
+.simple-header {
+  padding: 1rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.5rem;
+}
+
+.simple-header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* 通用内容美化样式 */
+/* Alert提示框优化 */
+.alert-info {
+  background-color: var(--light-color);
+  border: none;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  padding: 1.5rem;
+}
+
+/* 卡片化Callouts */
 .callouts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
 }
 
 .callout {
-  border: 1px solid rgba(0,0,0,.08);
-  border-radius: .75rem;
-  padding: 1rem;
-  background: #fff;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  border-top: 3px solid var(--primary-color);
+}
+
+.callout:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
 }
 
 .callout h3 {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* 列表美化 */
+.content-list {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.content-list li {
+  margin-bottom: 0.75rem;
+  color: #334155;
+}
+
+/* 表格美化 */
+.content-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.content-table th, .content-table td {
+  padding: 1rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.content-table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+}
+
+.content-table tr:last-child td {
+  border-bottom: none;
+}
+
+.content-table tr:hover {
+  background-color: var(--light-color);
+}
+
+/* 图片适配 */
+.content-img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  margin: 1rem 0;
+}
+
+/* 工作组分组样式 */
+.wg-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.5rem;
+  border-left: 3px solid var(--secondary-color);
+}
+
+.wg-section h3 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* 全局body重置 */
+body {
+  margin: 0;
+  padding: 0;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* 调整容器宽度，间接增大左右边距 */
+.container {
+  /* 减小默认最大宽度（Bootstrap默认桌面端是1140px），比如改为1000px */
+  max-width: 960px !important;
+  /* 保持居中，左右自动留白 */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  /* 兜底的内边距，避免移动端贴边 */
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* 移动端恢复更宽的容器，避免边距过大 */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem !important;
+    margin-top: 0.5rem !important;
+  }
+
+  .hero h1.display-5 {
+    font-size: 1.75rem;
+  }
+
+  .callouts {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .page-header, .simple-header {
+    padding: 1rem;
+  }
+
+  .content-table th, .content-table td {
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Contact页面专属样式 - 视觉分层+卡片化 */
+.contact-header {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--light-color);
+}
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-card {
+  background-color: white;
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  border-top: 3px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.contact-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+.contact-card--highlight {
+  border-top-color: var(--secondary-color);
+  background-color: var(--light-color);
+}
+
+.contact-card__title {
+  color: var(--primary-color);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.contact-card__subtitle {
   font-size: 1.05rem;
-  margin: 0 0 .25rem 0;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 0.75rem;
 }
 
-.table-schedule td,
-.table-schedule th {
-  vertical-align: top;
+.contact-card__list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  line-height: 1.6;
+  color: #4a5568;
 }
 
-.site-footer a { text-decoration: none; }
+.contact-card__list li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-card__list--email li {
+  margin-bottom: 0.75rem;
+}
+
+.contact-card__list--email a {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: var(--transition);
+  font-size: 1.05rem;
+}
+
+.contact-card__list--email a:hover {
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+  transform: translateX(2px);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 1.25rem;
+  }
+  
+  .contact-card__title {
+    font-size: 1.2rem;
+  }
+}
