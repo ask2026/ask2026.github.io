@@ -368,3 +368,185 @@ body {
     font-size: 1.2rem;
   }
 }
+
+/* Accommodation页面专属样式 - 与Contact/首页风格统一 */
+.accommodation-header {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--light-color);
+}
+
+.accommodation-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.accommodation-card {
+  background-color: white;
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  border-top: 3px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+/* hover动效：与首页callout/Contact卡片一致 */
+.accommodation-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+/* 高亮卡片（补充提示）：区分次要信息，呼应Contact的highlight卡片 */
+.accommodation-card--highlight {
+  border-top-color: var(--secondary-color);
+  background-color: var(--light-color);
+}
+
+.accommodation-card__title {
+  color: var(--primary-color);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.accommodation-card__content {
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.accommodation-card__list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.accommodation-card__list li {
+  margin-bottom: 0.75rem;
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+/* 列表项添加小图标装饰（无额外依赖） */
+.accommodation-card__list li::before {
+  content: "•";
+  color: var(--primary-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* 轻量提示框（推荐区域高亮） */
+.alert-sm {
+  border-left: 3px solid var(--primary-color);
+  font-size: 0.95rem;
+}
+
+/* 移动端适配：与Contact/首页响应式逻辑统一 */
+@media (max-width: 768px) {
+  .accommodation-card {
+    padding: 1.25rem;
+  }
+  
+  .accommodation-card__title {
+    font-size: 1.2rem;
+  }
+
+  .accommodation-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Registration页面专属样式 - 简约排版，不照搬卡片 */
+.registration-info {
+  padding: 1.5rem;
+  background-color: var(--light-color);
+  border-radius: 8px;
+  border-left: 3px solid var(--primary-color);
+}
+
+.registration-info__item {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.registration-info__label {
+  font-weight: 600;
+  color: var(--primary-color);
+  display: inline-block;
+  min-width: 140px;
+}
+
+/* 注册表格样式优化 */
+.registration-table table {
+  border-collapse: separate;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.registration-table thead th {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem;
+}
+
+.registration-table tbody td {
+  border-color: #e2e8f0;
+  padding: 0.75rem 1rem;
+}
+
+.registration-table tbody tr:nth-child(even) {
+  background-color: var(--light-color);
+}
+
+/* 图片缩略图+点击放大样式 */
+.registration-img-container {
+  max-width: 400px; /* 缩略图最大宽度，避免过大 */
+  margin: 0 auto; /* 居中 */
+}
+
+.registration-img-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: var(--transition);
+  border: 2px solid transparent;
+}
+
+.registration-img-thumbnail:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--secondary-color);
+  transform: scale(1.02);
+}
+
+/* 模态框样式优化（和全局风格统一） */
+.modal-content {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden; /* 防止内边距导致圆角失效 */
+}
+
+.modal-lg .modal-content {
+  max-width: 900px; /* 大图最大宽度 */
+  margin: 0 auto;
+}
+
+/* 新增：图片圆角样式 */
+.rounded-6 {
+  border-radius: 6px !important;
+}
+
+/* 优化模态框内边距和间距 */
+.modal-header.btn-close {
+  margin-right: -0.5rem; /* 微调关闭按钮位置，避免过宽 */
+}
+
+.modal-body img {
+  display: block;
+  margin: 0 auto; /* 图片居中，视觉更平衡 */
+}

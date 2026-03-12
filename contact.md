@@ -28,7 +28,7 @@ permalink: /contact/
       <h4 class="contact-card__subtitle">Local organizers</h4>
       <ul class="contact-card__list">
         <li>Xingran Li, Wenjie Nan, Yiran Yao, Tianyu Zhang (NTU)</li>
-        <li>Jinyu Lu, Huina Li, Shiqi Hou (THU)</li>
+        <li>Jinyu Lu, Huina Li, Shiqi Hou, Zhili Wu (THU)</li>
       </ul>
     </div>
 
