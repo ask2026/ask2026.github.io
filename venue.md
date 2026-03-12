@@ -100,13 +100,13 @@ permalink: /venue/
 </div>
 
 <!-- 提示框（复用alert样式，和首页一致） -->
-<div class="alert alert-info my-5" role="alert">
+<!-- <div class="alert alert-info my-5" role="alert">
   <h2 class="h4 mb-3 fw-semibold">Travel Updates</h2>
   <p class="mb-0">
     Practical travel tips, campus directions, and local transit hacks will be posted here closer to the event.
     For urgent questions, reach out via the <a href="{{ '/contact/' | relative_url }}" style="color: var(--primary-color); font-weight: 500;">contact page</a>.
   </p>
-</div>
+</div> -->
 
 <!-- 第一张图片的放大模态框 -->
 <div class="modal fade" id="ewlMapModal1" tabindex="-1" aria-labelledby="ewlMapModal1Label" aria-hidden="true">

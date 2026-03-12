@@ -60,6 +60,6 @@ permalink: /accommodation/
   </div> -->
 </div>
 
-<div class="alert alert-info mt-4" role="alert">
+<!-- <div class="alert alert-info mt-4" role="alert">
   We will add hotel suggestions and booking guidance once the FSE hotel block and/or negotiated rates (if any) are confirmed.
-</div>
+</div> -->

@@ -14,7 +14,7 @@ permalink: /contact/
 <div class="contact-cards grid gap-4">
   <!-- 第一组：Organizing Team -->
   <div class="contact-card">
-    <h3 class="contact-card__title">Organizing Team (Proposed)</h3>
+    <h3 class="contact-card__title">Organizers</h3>
     
     <div class="contact-card__section mb-3">
       <h4 class="contact-card__subtitle">Local chairs</h4>
@@ -42,7 +42,7 @@ permalink: /contact/
 
   <!-- 第二组：Contact Email -->
   <div class="contact-card contact-card--highlight">
-    <h3 class="contact-card__title">Emails</h3>
+    <h3 class="contact-card__title">Team Emails</h3>
     <p class="mb-3 text-muted">Reach out via email for any inquiries:</p>
     <ul class="contact-card__list contact-card__list--email">
       <li><a href="mailto:ask2026@googlegroups.com">ask2026@googlegroups.com</a></li>
