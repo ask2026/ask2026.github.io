@@ -61,6 +61,44 @@ permalink: /venue/
   </div>
 </div>
 
+<!-- EWL停运警示框（浅橙/黄，支持图片放大） -->
+<div class="alert alert-warning my-5" role="alert">
+  <h2 class="h4 mb-3 fw-semibold">No East-West Line (EWL) train services between Tanah Merah (CG) and Expo (CG1) from Mar 14 to 17, 2026</h2>
+  <p class="mb-3">
+    Train services along the East-West Line (EWL) and Sengkang-Punggol LRT (SPLRT) will be adjusted to facilitate essential upgrading works that will enhance the capacity, reliability and resilience of the rail network. (<a href="https://www.lta.gov.sg/content/ltagov/en/newsroom/2026/2/news-releases/train-service-adjustment-ewl-splrt-upgrading-works.html" target="_blank" rel="noopener">LTA Train Service Adjustment (EWL/SPLRT) 2026</a>)
+  </p>
+  <p class="mb-3">
+    During this period, commuters are advised to take the <strong>Shuttle Bus Service S8</strong> or other alternatives.
+  </p>
+  <p class="mb-2 fw-medium">Service adjustment info from LTA website (click to enlarge):</p>
+  <br/>
+
+  <div class="row g-3 mb-4">
+    <!-- 第一张图片 -->
+    <div class="col-md-6 d-flex justify-content-center">
+      <img 
+        src="/assets/images/ewl_adjustment_route.png" 
+        alt="EWL 2026 Service Adjustment Map - Affected Stations" 
+        class="img-fluid rounded shadow-sm" 
+        style="cursor: zoom-in; max-width: 90%;"
+        data-bs-toggle="modal" 
+        data-bs-target="#ewlMapModal1"
+      >
+    </div>
+    <!-- 第二张图片 -->
+    <div class="col-md-6 d-flex justify-content-center">
+      <img 
+        src="/assets/images/ewl_adjustment_shuttle_bus.png"
+        alt="EWL 2026 Service Adjustment - NTU Transit Alternatives" 
+        class="img-fluid rounded shadow-sm" 
+        style="cursor: zoom-in; max-width: 72%;"
+        data-bs-toggle="modal" 
+        data-bs-target="#ewlMapModal2"
+      >
+    </div>
+  </div>
+</div>
+
 <!-- 提示框（复用alert样式，和首页一致） -->
 <div class="alert alert-info my-5" role="alert">
   <h2 class="h4 mb-3 fw-semibold">Travel Updates</h2>
@@ -68,4 +106,34 @@ permalink: /venue/
     Practical travel tips, campus directions, and local transit hacks will be posted here closer to the event.
     For urgent questions, reach out via the <a href="{{ '/contact/' | relative_url }}" style="color: var(--primary-color); font-weight: 500;">contact page</a>.
   </p>
+</div>
+
+<!-- 第一张图片的放大模态框 -->
+<div class="modal fade" id="ewlMapModal1" tabindex="-1" aria-labelledby="ewlMapModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ewlMapModal1Label">EWL 2026 Service Adjustment Map - Affected Stations</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <img src="/assets/images/ewl_adjustment_route.png" alt="EWL 2026 Service Adjustment Map" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 第二张图片的放大模态框 -->
+<div class="modal fade" id="ewlMapModal2" tabindex="-1" aria-labelledby="ewlMapModal2Label" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ewlMapModal2Label">EWL 2026 Service Adjustment - NTU Transit Alternatives</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <img src="/assets/images/ewl_adjustment_shuttle_bus.png" alt="EWL 2026 NTU Transit Alternatives" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
 </div>

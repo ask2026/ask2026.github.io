@@ -550,3 +550,30 @@ body {
   display: block;
   margin: 0 auto; /* 图片居中，视觉更平衡 */
 }
+
+/* Alert警示框（浅橙/黄）- 适配EWL停运提示 */
+.alert-warning {
+  background-color: #fffbf0; /* 柔和浅黄背景 */
+  border: none;
+  border-left: 4px solid #f59e0b; /* 暖橙色左侧边框（醒目不刺眼） */
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  padding: 1.5rem;
+}
+
+.alert-warning h2.h4 {
+  color: #92400e; /* 深橙文字，提升标题辨识度 */
+}
+
+.alert-warning a {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.alert-warning a:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
