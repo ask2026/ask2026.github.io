@@ -4,39 +4,68 @@ title: "Venue and Travel"
 permalink: /venue/
 ---
 
-<!-- 轻量化页面头部 -->
-<div class="page-header">
-  <h1>Venue and Travel</h1>
-  <p>Getting to NTU and Singapore</p>
+<!-- 核心信息Hero区域（和首页风格统一） -->
+<div class="hero mb-5">
+  <div class="d-flex flex-column gap-3">
+    <h1 class="display-5 fw-bold mb-2">Venue & Travel</h1>
+    <p class="lead mb-0 opacity-90">
+      How to get to NTU, Singapore
+    </p>
+  </div>
 </div>
 
-## Venue
-<strong>Nanyang Technological University (NTU), Singapore</strong><br>
-Workshop rooms: <strong>[The Hive](https://goo.gl/maps/mG3om1hxgET2) & [SPMS](https://goo.gl/maps/oPbRVcHvoun) (rooms TBC)</strong>.
+<!-- 核心场地信息卡片组（复用callout样式，和首页一致） -->
+<div class="callouts my-5">
+  <div class="callout">
+    <h3>Workshop Venue</h3>
+    <p class="mb-2">
+      <strong>Nanyang Technological University (NTU)</strong>, Singapore
+    </p>
+    <p class="mb-1">
+      Primary rooms: <a href="https://goo.gl/maps/mG3om1hxgET2" target="_blank" rel="noopener">The Hive</a> & <a href="https://goo.gl/maps/oPbRVcHvoun" target="_blank" rel="noopener">SPMS</a> (exact rooms TBC)
+    </p>
+    <p class="mb-0 text-muted small">
+      NTU is located in Singapore’s west – well-connected by public transport/taxis
+    </p>
+  </div>
 
-NTU is located in the western part of Singapore and is well connected via public transport and taxis.
+  <div class="callout">
+    <h3>International Travel</h3>
+    <p class="mb-1">
+      Singapore’s main airport: <strong>Changi Airport (SIN)</strong>
+    </p>
+    <p class="mb-0">
+      Extensive global flight connections with most countries
+    </p>
+  </div>
 
-## Getting to Singapore
-Singapore is served by <strong>Changi Airport (SIN)</strong> with extensive international connections.
-
-## Getting to NTU
-Options typically include:
-<ul class="content-list">
-  <li><strong>Taxi / ride-hailing</strong> (most convenient, door-to-door).</li>
-  <li><strong>Public transport</strong> (MRT + bus) Mass Rapid Transit (MRT) system:
-    <ul class="content-list">
-      <li>1 hour from Changi airport to the city centre,</li>
-      <li>1 hour from the city centre to NTU</li>
+  <div class="callout">
+    <h3>Getting to NTU</h3>
+    <ul class="mb-0">
+      <li class="mb-1"><strong>Taxi/Ride-hailing</strong>: Most convenient (door-to-door)</li>
+      <li class="mb-1"><strong>Public Transport (MRT + Bus)</strong>:
+        <ul class="mb-0 mt-1 text-muted">
+          <li>~1 hour from Changi Airport → City Centre</li>
+          <li>~1 hour from City Centre → NTU</li>
+        </ul>
+      </li>
     </ul>
-  </li>
-</ul>
+  </div>
 
-<div class="alert alert-info mt-4" role="alert">
-  Practical travel pointers and campus directions will be posted here closer to the event.
+  <div class="callout">
+    <h3>Nearby Events</h3>
+    <ul class="mb-0">
+      <li class="mb-1">Spring School on Symmetric Cryptography: 16–18 March 2026</li>
+      <li class="mb-0"><a href="https://fse.iacr.org/2026/" target="_blank" rel="noopener">FSE/ToSC 2026</a>: 23–27 March 2026 (Parkroyal Hotel on Beach Road)</li>
+    </ul>
+  </div>
 </div>
 
-## Nearby events (same week)
-<ul class="content-list">
-  <li>[Spring School on Symmetric Cryptography](): <strong>16–18 March 2026</strong></li>
-  <li>[FSE/ToSC 2026](https://fse.iacr.org/2026/): <strong>23–27 March 2026</strong> (conference venue: Parkroyal Hotel on Beach Road)</li>
-</ul>
+<!-- 提示框（复用alert样式，和首页一致） -->
+<div class="alert alert-info my-5" role="alert">
+  <h2 class="h4 mb-3 fw-semibold">Travel Updates</h2>
+  <p class="mb-0">
+    Practical travel tips, campus directions, and local transit hacks will be posted here closer to the event.
+    For urgent questions, reach out via the <a href="{{ '/contact/' | relative_url }}" style="color: var(--primary-color); font-weight: 500;">contact page</a>.
+  </p>
+</div>
