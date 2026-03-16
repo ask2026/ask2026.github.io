@@ -39,8 +39,8 @@ permalink: /program/
       </tr>
       <tr>
         <td>09:30 - 10:00</td>
-        <td class="speaker-cell" title="Ritam Bhaumik - Post-Quantum Security of Key-Alternating Feistel Ciphers and other Symmetric Modes">
-          <span class="speaker-initials">R. Bhaumik</span>
+        <td class="speaker-cell" title="Gregor Leander - Attacks and Remedies for Randomness in generative AI">
+          <span class="speaker-initials">G. Leander</span>
           <span class="hover-hint">ⓘ</span>
         </td>
         <td class="speaker-cell" title="Yaobin Shen - Tight Generic PRF Security of HMAC and NMAC">
@@ -79,8 +79,8 @@ permalink: /program/
           <span class="speaker-initials">P. Neumann</span>
           <span class="hover-hint">ⓘ</span>
         </td>
-        <td class="speaker-cell" title="Gregor Leander - Attacks and Remedies for Randomness in generative AI">
-          <span class="speaker-initials">G. Leander</span>
+        <td class="speaker-cell" title="Ritam Bhaumik - Post-Quantum Security of Key-Alternating Feistel Ciphers and other Symmetric Modes">
+          <span class="speaker-initials">R. Bhaumik</span>
           <span class="hover-hint">ⓘ</span>
         </td>
       </tr>
