@@ -12,7 +12,6 @@ permalink: /
       <span class="badge rounded-pill px-4 py-2">The 12th Asian-workshop on Symmetric Key Cryptography</span>
       <span class="badge rounded-pill px-4 py-2">ASK 2026</span>
     </div>
-
     <div>
       <h1 class="display-5 fw-bold mb-3">ASK 2026 — Singapore</h1>
       <p class="lead mb-2">
@@ -22,13 +21,11 @@ permalink: /
         Main program: 19–21 March · Optional discussion rooms: morning of 22 March
       </p>
     </div>
-
     <div class="d-flex flex-wrap gap-2">
-      <a class="btn btn-primary btn-lg" href="{{ '/program/' | relative_url }}">Draft program</a>
+      <a class="btn btn-primary btn-lg" href="{{ '/program/' | relative_url }}">Click Here for Program Schedule</a>
     </div>
-
     <p class="mb-0 opacity-90">
-      The workshop is held just after the Spring School on Symmetric Cryptography (16–18 March 2026) and before <a href="https://fse.iacr.org/2026" style="color: white; text-decoration: underline; opacity: 0.9;">FSE/ToSC 2026</a> (23–27 March 2026, Singapore).
+      The workshop is held just after the <a href="https://informatik.rub.de/symcrypt/springschool2026/" style="color: white; text-decoration: underline; opacity: 0.9;">Spring School on Symmetric Cryptography</a> (16–18 March 2026) and before <a href="https://fse.iacr.org/2026" style="color: white; text-decoration: underline; opacity: 0.9;">FSE/ToSC 2026</a> (23–27 March 2026, Singapore).
     </p>
   </div>
 </div>
@@ -40,10 +37,10 @@ permalink: /
 
 <!-- 行程提示框 -->
 <div class="alert alert-info my-5" role="alert">
-  <h2 class="h4 mb-3 fw-semibold">Tentative schedule for travel planning</h2>
+  <h2 class="h4 mb-3 fw-semibold">Advice for travel planning</h2>
   <p class="mb-3">
-    Thank you for your interest in ASK 2026, and sorry for the previous confusion about the date of the event.
-    To help with your travel arrangements, here is the tentative schedule for ASK 2026:
+    Thank you for your interest in ASK 2026, and sorry for our previous confusion about the date of the event.
+    To help with your travel arrangements, here is the schedule for ASK 2026:
   </p>
   <ul class="mb-3">
     <li class="mb-2">
@@ -90,7 +87,7 @@ permalink: /
 
 <!-- 研究范围部分 -->
 <div class="scope-section" style="margin-top: 2rem; padding: 1.5rem; background-color: var(--light-color); border-radius: 8px;">
-  <h3 class="h4 fw-semibold mb-3 text-dark">Scope (non-exhaustive)</h3>
+  <h3 class="h4 fw-semibold mb-3 text-dark">Workshop scopes</h3>
   <ul class="list-unstyled mb-0">
     <li class="mb-2">
       <strong>Cryptanalysis of cryptographic primitives</strong>: block ciphers, stream ciphers, hash functions, permutations, MACs, authenticated encryption, etc.

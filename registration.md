@@ -7,15 +7,15 @@ permalink: /registration/
 <!-- 开头信息轻量结构化 - 不照搬卡片，简约排版 -->
 <div class="registration-info mb-5">
   <div class="registration-info__item mb-3">
-    <span class="registration-info__label">Fee information:</span> free
+    <span class="registration-info__label">Fee information:</span> the event is <strong>free</strong> to participate
   </div>
   <div class="registration-info__item mb-3">
-    <span class="registration-info__label">Capacity limits:</span> about 100
+    <span class="registration-info__label">Capacity limits:</span> ~ 100 people
   </div>
-  <div class="registration-info__item">
+  <!-- <div class="registration-info__item">
     <span class="registration-info__label">Visa support information:</span><br>
     Please check back later, or contact the organizers via the <a href="{{ '/contact/' | relative_url }}">contact page</a>.
-  </div>
+  </div> -->
 </div>
 
 <!-- 现场注册标题+表格 - 优化排版 -->
