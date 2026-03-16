@@ -35,7 +35,7 @@ permalink: /program/
           <span class="speaker-initials">W. Choi</span>
           <span class="hover-hint">ⓘ</span>
         </td>
-        <td rowspan="3" class="discussion-cell">Free Discussion (Morning)</td>
+        <td rowspan="7" class="discussion-cell">Free Discussion</td>
       </tr>
       <tr>
         <td>09:30 - 10:00</td>
@@ -83,7 +83,6 @@ permalink: /program/
           <span class="speaker-initials">G. Leander</span>
           <span class="hover-hint">ⓘ</span>
         </td>
-        <td rowspan="9">No Scheduled Activities</td>
       </tr>
       <tr>
         <td>11:30 - 12:00</td>
@@ -117,6 +116,7 @@ permalink: /program/
       <tr>
         <td>14:00 - 15:30</td>
         <td colspan=3 style="text-align:center" class="discussion-cell">Group Discussion</td>
+        <td rowspan="3">No Scheduled Activities</td>
       </tr>
       <!-- 下午咖啡休息分隔行 - 无单元格，仅加粗分隔线 -->
       <tr class="break-row coffee-break"></tr>
