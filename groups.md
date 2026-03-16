@@ -30,11 +30,11 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
     <li><strong>WG1-2: Automated & AI-Assisted Cryptanalysis</strong><br>
       Focusing on the use of automated tools (e.g., SAT/SMT/MILP/CP solvers) and machine learning techniques in cryptanalytic tasks.
       <br/><div class="wg-participants"><strong>Group A:</strong> Zhenzhen Bao, Jhelum Dhar, Patrick Derbez, Anup Kumar Kundu, Jinyu Lu, Dilip Sau, Jianhua Wang, Wenhui Wu </div>
-      <br/><div class="wg-participants"><strong>Group B:</strong> Dachao Wang (Leader), Chengcheng Chang, Tor Kristian Ellingsen, Simon Gerhalter, Hosein Hadipour, Huina Li, Guozhen Liu, Yantian Shen </div>
+      <br/><div class="wg-participants"><strong>Group B:</strong> Dachao Wang (Leader), Chengcheng Chang, Tor Kristian Ellingsen, Simon Gerhalter, Hosein Hadipour, Huina Li, Guozhen Liu, Bastien Michel, Yantian Shen </div>
     </li>
     <li><strong>WG1-3: Quantum Cryptanalysis</strong><br>
       Exploring quantum algorithms for security margin estimations in a post-quantum context.
-      <br/><div class="wg-participants"><strong>Group:</strong> Xavier Bonnetain, Suman Dutta, Shiqi Hou, Shun Li, Qun Liu, Aurel Pichollet--Mugnier, Danping Shi, Zhili Wu </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Xavier Bonnetain, Suman Dutta, Shiqi Hou, Shun Li, Qun Liu, Aurel Pichollet-Mugnier, Danping Shi, Zhili Wu </div>
     </li>
     <li><strong>WG1-4: Security Evaluation of AI Models</strong><br>
       Applying cryptanalytic methodologies to assess the robustness and privacy of AI systems.
@@ -53,7 +53,7 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
     </li>
     <li><strong>WG2-2: Provable Security & Modes of Operation</strong><br>
       Design and security proofs for modes (AEAD, Tweakable frameworks, MACs) and theoretical constructions.
-      <br/><div class="wg-participants"><strong>Group A:</strong> Ritam Bhaumik (Leader), Ravindra Jejurikar, Sunyeop Kim, Hrithik Nandi, Yaobin Shen, Xiangyang Zhang </div>
+      <br/><div class="wg-participants"><strong>Group A:</strong> Ritam Bhaumik (Leader), Ravindra Jejurikar, Sunyeop Kim, César Mathéus, Hrithik Nandi, Yaobin Shen, Xiangyang Zhang </div>
       <br/><div class="wg-participants"><strong>Group B:</strong> Tetsu Iwata (Leader), Yuchao Chen, Shreya Dey, Jonathan Fuchs, Kazuhiko Minematsu, Soumit Pal, Yuxiang Wang </div>
     </li>
     <li><strong>WG2-3: Arithmetization-Oriented Primitives</strong><br>
@@ -78,7 +78,7 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
     </li> -->
     <li><strong>WG3-2: Physical Attacks & Countermeasures</strong><br>
       Side-channel analysis, fault injection, and protected implementations.
-      <br/><div class="wg-participants"><strong>Group:</strong> Enrico Piccione, Yanhong Fan, Ruiyang Li, Yufeng Tang </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Enrico Piccione (Leader), Yanhong Fan, Ruiyang Li, Yufeng Tang </div>
     </li>
     <!-- <li><strong>WG3-3: [Other Proposed Topics]</strong></li> -->
   </ul>
