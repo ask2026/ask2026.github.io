@@ -43,8 +43,8 @@ permalink: /program/
           <span class="speaker-initials">R. Bhaumik</span>
           <span class="hover-hint">ⓘ</span>
         </td>
-        <td class="speaker-cell" title="Kazuhiko Minematsu - Do not Mix Models: Revisiting Generic Transforms for Committing Authenticated Encryption">
-          <span class="speaker-initials">K. Minematsu</span>
+        <td class="speaker-cell" title="Yaobin Shen - Tight Generic PRF Security of HMAC and NMAC">
+          <span class="speaker-initials">Y. Shen</span>
           <span class="hover-hint">ⓘ</span>
         </td>
         <td class="speaker-cell" title="Tao Huang - Scenario-Oriented High-Throughput Cipher Design">
@@ -95,8 +95,8 @@ permalink: /program/
           <span class="speaker-initials">C. Rechberger</span>
           <span class="hover-hint">ⓘ</span>
         </td>
-        <td class="speaker-cell" title="Yaobin Shen - Tight Generic PRF Security of HMAC and NMAC">
-          <span class="speaker-initials">Y. Shen</span>
+        <td class="speaker-cell" title="Kazuhiko Minematsu - Do not Mix Models: Revisiting Generic Transforms for Committing Authenticated Encryption">
+          <span class="speaker-initials">K. Minematsu</span>
           <span class="hover-hint">ⓘ</span>
         </td>
       </tr>
