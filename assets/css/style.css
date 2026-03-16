@@ -604,3 +604,58 @@ body {
     display: block; /* 移动端独占一行，避免挤压 */
   }
 }
+
+/* --- Invited Speakers Page Specific Styles --- */
+/* 讲者卡片网格布局（替代原内联样式） */
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* 讲者机构与职称信息 */
+.speaker-affiliation {
+  color: var(--text-muted);
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* 演讲标题强调 */
+.speaker-talk-label {
+  font-weight: 600;
+}
+
+/* 关键词容器 */
+.speaker-keywords {
+  margin-top: 0.75rem;
+}
+
+/* 关键词标签（高可读性版本） */
+.speaker-keyword {
+  background-color: var(--light-color); /* 浅灰蓝背景 */
+  color: var(--primary-color); /* 深海蓝文字 */
+  border: 1px solid var(--secondary-color); /* 浅蓝边框 */
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px; /* 圆润胶囊形状 */
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  transition: var(--transition);
+}
+
+/* 关键词悬停效果（反色高亮） */
+.speaker-keyword:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* 移动端适配：讲者卡片改为单列 */
+@media (max-width: 768px) {
+  .speakers-grid {
+    grid-template-columns: 1fr;
+  }
+}
