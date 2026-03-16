@@ -23,8 +23,8 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
   <ul class="content-list">
     <li><strong>WG1-1: Classical Cryptanalysis</strong><br>
       Broadly covering foundational cryptanalysis of primitives, including block ciphers, stream ciphers, permutations, hash functions, MACs, and AEAD.
-      <br/><div class="wg-participants"><strong>Group A:</strong> Dhiman Saha (Leader), Baptiste Germon, Keita Ishizuk, Dounia M'foukh, Zhuoxi Lin, Yong Liu, Zhengrong Lu, Zhongxin Zhang </div>
-      <br/><div class="wg-participants"><strong>Group B:</strong> Debasmita Chakraborty, Antonio Florez-Gutierrez, Haoran Li, Xiaoen Lin, María Naya-Plasencia, Prathamesh Ram, Ricardo Rodriguez-Reveco, Qianqian Yang, Zhuolong Zhang </div>
+      <br/><div class="wg-participants"><strong>Group A:</strong> Dhiman Saha (Leader), Baptiste Germon, Keita Ishizuka, Dounia M'foukh, Zhuoxi Lin, Yong Liu, Zhengrong Lu, Zhongxin Zhang </div>
+      <br/><div class="wg-participants"><strong>Group B:</strong> Antonio Florez-Gutierrez (Leader), Debasmita Chakraborty, Haoran Li, Xiaoen Lin, María Naya-Plasencia, Ricardo Rodriguez-Reveco, Qianqian Yang, Zhuolong Zhang </div>
       <br/><div class="wg-participants"><strong>Group C:</strong> Gaëtan Leurent (Leader), Merlin Fruchon, Jiahui He, Huimin Liu, Florent Mazelet, Patrick Neumann, Ling Song, Xiaomeng Sun, Zhiyu Zhang </div>
     </li>
     <li><strong>WG1-2: Automated & AI-Assisted Cryptanalysis</strong><br>
@@ -34,7 +34,7 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
     </li>
     <li><strong>WG1-3: Quantum Cryptanalysis</strong><br>
       Exploring quantum algorithms for security margin estimations in a post-quantum context.
-      <br/><div class="wg-participants"><strong>Group:</strong> Xavier Bonnetain, Suman Dutta, Shiqi Hou, Shun Li, Qun Liu, Aurel Pichollet-Mugnier, Danping Shi, Zhili Wu </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Xavier Bonnetain, Suman Dutta, Shiqi Hou, Shun Li, Qun Liu, Aurel Pichollet--Mugnier, Danping Shi, Zhili Wu </div>
     </li>
     <li><strong>WG1-4: Security Evaluation of AI Models</strong><br>
       Applying cryptanalytic methodologies to assess the robustness and privacy of AI systems.
@@ -62,7 +62,7 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
     </li>
     <li><strong>WG2-4: Specialized & Scenario-Oriented Primitives</strong><br>
       Design and analysis of primitives targeting specific constraints: e.g., Low-Latency, Lightweight/IoT, or hardware-specific optimizations.
-      <br/><div class="wg-participants"><strong>Group:</strong> Shahram Rasoolzadeh (Leader), Bishwajit Chakraborty, Shibam Ghosh, Kai Hu, Tao Huang, Shuo Peng, Phuong Pham </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Shahram Rasoolzadeh (Leader), Jens Alich, Bishwajit Chakraborty, Shibam Ghosh, Kai Hu, Tao Huang, Shuo Peng, Phuong Pham </div>
     </li>
     <li><strong>WG2-5: Quantum Provable Security</strong>
       <br/><div class="wg-participants"><strong>Group:</strong> Xiaoning Guo, Ashwin Jha, Sougata Mandal, Wenjie Nan, Rentaro Shiba, Amlan Sinha </div>
@@ -78,7 +78,7 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
     </li> -->
     <li><strong>WG3-2: Physical Attacks & Countermeasures</strong><br>
       Side-channel analysis, fault injection, and protected implementations.
-      <br/><div class="wg-participants"><strong>Group:</strong> Enrico Piccione (Leader), Madhurima Das, Yanhong Fan, Ruiyang Li, Yufeng Tang </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Enrico Piccione, Yanhong Fan, Ruiyang Li, Yufeng Tang </div>
     </li>
     <!-- <li><strong>WG3-3: [Other Proposed Topics]</strong></li> -->
   </ul>
