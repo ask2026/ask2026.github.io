@@ -659,3 +659,114 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* 日程表格专属样式 - 休息分隔线+悬停引导 */
+.program-schedule {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+/* 休息分隔行 - 加粗横线强调 */
+.program-schedule .break-row {
+  height: 12px; /* 分隔线高度 */
+}
+
+.program-schedule .break-row td {
+  padding: 0 !important;
+  border: none !important;
+  background-color: var(--primary-color);
+  opacity: 0.8;
+}
+
+/* 区分咖啡休息和午餐休息（可选，也可统一样式） */
+.program-schedule .coffee-break td {
+  background-color: var(--secondary-color);
+  height: 3px;
+}
+.program-schedule .lunch-break td {
+  background-color: var(--primary-color);
+  height: 5px;
+}
+
+/* 讲者单元格 - 视觉引导+扩大悬停区域 */
+.program-schedule .speaker-cell {
+  background-color: #f8fafc; /* 浅背景区分普通单元格 */
+  position: relative;
+  padding: 1rem 1.25rem !important;
+  cursor: help; /* 鼠标变为问号，提示可悬停 */
+}
+
+/* 悬停时强化背景，提升反馈 */
+.program-schedule .speaker-cell:hover {
+  background-color: #e2e8f0;
+  transition: var(--transition);
+}
+
+/* 悬停提示图标（ⓘ）- 不突兀的视觉引导 */
+.hover-hint {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  background-color: rgba(74, 137, 188, 0.1);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+/* 讨论环节单元格样式（区分讲者单元格） */
+.program-schedule .discussion-cell {
+  background-color: #f0f7ff;
+  padding: 1rem 1.25rem !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .program-schedule .speaker-cell,
+  .program-schedule .discussion-cell {
+    padding: 0.75rem 1rem !important;
+  }
+  .hover-hint {
+    margin-left: 0.3rem;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+  }
+}
+
+/* 日程说明列表专属优化 - 复用全局content-list样式，统一间距 */
+.schedule-notes-list {
+  padding-left: 1.8rem !important; /* 适配有序列表缩进，和无序列表视觉对齐 */
+}
+
+.schedule-notes-list li {
+  margin-bottom: 0.8rem !important; /* 和全局content-list的li间距一致 */
+  line-height: 1.7; /* 统一行高，避免文字拥挤 */
+}
+
+/* 嵌套列表优化（休息时段子列表） */
+.schedule-notes-list ul li {
+  margin-bottom: 0.4rem !important; /* 子列表略紧凑，但仍协调 */
+  color: var(--text-muted); /* 次要信息浅一点，层级更清晰 */
+}
+
+/* 确保Alert内链接样式不突兀 */
+.alert-info a {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.alert-info a:hover {
+  border-bottom: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+}

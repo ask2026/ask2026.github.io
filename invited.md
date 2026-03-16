@@ -9,7 +9,7 @@ permalink: /invited/
 </div>
 
 <!-- 引导语 -->
-<p>We are honored to invite the following researchers:</p>
+<p>We are honored to invite the following researchers to present 16 talks:</p>
 
 <!-- 讲者卡片列表（使用新定义的.speakers-grid类） -->
 <div class="speakers-grid">
