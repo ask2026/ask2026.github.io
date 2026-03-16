@@ -116,17 +116,13 @@ permalink: /program/
       <tr class="break-row lunch-break"></tr>
       <tr>
         <td>14:00 - 15:30</td>
-        <td class="discussion-cell">Group Discussion</td>
-        <td class="discussion-cell">Group Discussion</td>
-        <td class="discussion-cell">Group Discussion</td>
+        <td colspan=3 style="text-align:center" class="discussion-cell">Group Discussion</td>
       </tr>
       <!-- 下午咖啡休息分隔行 - 无单元格，仅加粗分隔线 -->
       <tr class="break-row coffee-break"></tr>
       <tr>
         <td>16:00 - 18:00</td>
-        <td class="discussion-cell">Group Discussion</td>
-        <td class="discussion-cell">Group Discussion</td>
-        <td class="discussion-cell">Group Discussion</td>
+        <td colspan=3 style="text-align:center" class="discussion-cell">Group Discussion</td>
       </tr>
     </tbody>
   </table>
