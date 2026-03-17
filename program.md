@@ -47,8 +47,8 @@ permalink: /program/
           <span class="speaker-initials">Y. Shen</span>
           <span class="hover-hint">ⓘ</span>
         </td>
-        <td class="speaker-cell" title="Tao Huang - Scenario-Oriented High-Throughput Cipher Design">
-          <span class="speaker-initials">T. Huang</span>
+        <td class="speaker-cell" title="Gaëtan Leurent - Cryptanalysis of Algebraic Verifiable Delay Functions">
+          <span class="speaker-initials">G. Leurent</span>
           <span class="hover-hint">ⓘ</span>
         </td>
       </tr>
@@ -101,8 +101,8 @@ permalink: /program/
       </tr>
       <tr>
         <td>12:00 - 12:30</td>
-        <td class="speaker-cell" title="Gaëtan Leurent - Cryptanalysis of Algebraic Verifiable Delay Functions">
-          <span class="speaker-initials">G. Leurent</span>
+        <td class="speaker-cell" title="Tao Huang - Scenario-Oriented High-Throughput Cipher Design">
+          <span class="speaker-initials">T. Huang</span>
           <span class="hover-hint">ⓘ</span>
         </td>
         <td class="speaker-cell" title="Bin Zhang - Vectorial Fast Correlation Attacks over Extension Fields">

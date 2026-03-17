@@ -23,7 +23,7 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
   <ul class="content-list">
     <li><strong>WG1-1: Classical Cryptanalysis</strong><br>
       Broadly covering foundational cryptanalysis of primitives, including block ciphers, stream ciphers, permutations, hash functions, MACs, and AEAD.
-      <br/><div class="wg-participants"><strong>Group A:</strong> Dhiman Saha (Leader), Baptiste Germon, Keita Ishizuka, Dounia M'foukh, Zhuoxi Lin, Yong Liu, Zhengrong Lu, Zhongxin Zhang </div>
+      <br/><div class="wg-participants"><strong>Group A:</strong> Dhiman Saha (Leader), Keita Ishizuka, Zhuoxi Lin, Yong Liu, Zhengrong Lu, Zhongxin Zhang </div>
       <br/><div class="wg-participants"><strong>Group B:</strong> Antonio Florez-Gutierrez (Leader), Debasmita Chakraborty, Haoran Li, Xiaoen Lin, María Naya-Plasencia, Ricardo Rodriguez-Reveco, Qianqian Yang, Zhuolong Zhang </div>
       <br/><div class="wg-participants"><strong>Group C:</strong> Gaëtan Leurent (Leader), Merlin Fruchon, Jiahui He, Huimin Liu, Florent Mazelet, Patrick Neumann, Ling Song, Xiaomeng Sun, Zhiyu Zhang </div>
     </li>
@@ -38,7 +38,7 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
     </li>
     <li><strong>WG1-4: Security Evaluation of AI Models</strong><br>
       Applying cryptanalytic methodologies to assess the robustness and privacy of AI systems.
-      <br/><div class="wg-participants"><strong>Group:</strong> Tim Beyne (Leader), Nitesh Singh Bhadouria, Shiyao Chen, Wonseok Choi, Chandan Dey, Sajani Kundu, Yevhen Perehuda, Xiaokang Qi, Yiran Yao </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Tim Beyne (Leader), Nitesh Singh Bhadouria, Shiyao Chen, Wonseok Choi, Chandan Dey, Baptiste Germon, Sajani Kundu, Yevhen Perehuda, Xiaokang Qi, Yiran Yao </div>
     </li>
     <!-- <li><strong>WG1-5: [Other Proposed Topics]</strong></li> -->
   </ul>
@@ -54,18 +54,18 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
     <li><strong>WG2-2: Provable Security & Modes of Operation</strong><br>
       Design and security proofs for modes (AEAD, Tweakable frameworks, MACs) and theoretical constructions.
       <br/><div class="wg-participants"><strong>Group A:</strong> Ritam Bhaumik (Leader), Ravindra Jejurikar, Sunyeop Kim, César Mathéus, Hrithik Nandi, Yaobin Shen, Xiangyang Zhang </div>
-      <br/><div class="wg-participants"><strong>Group B:</strong> Tetsu Iwata (Leader), Yuchao Chen, Shreya Dey, Jonathan Fuchs, Kazuhiko Minematsu, Soumit Pal, Yuxiang Wang </div>
+      <br/><div class="wg-participants"><strong>Group B:</strong> Tetsu Iwata (Leader), Yuchao Chen, Shreya Dey, Jonathan Fuchs, Dounia M'foukh, Kazuhiko Minematsu, Soumit Pal, Yuxiang Wang </div>
     </li>
     <li><strong>WG2-3: Arithmetization-Oriented Primitives</strong><br>
       Design and analysis of primitives optimized for privacy-preserving protocols such as ZK, MPC, and FHE.
-      <br/><div class="wg-participants"><strong>Group:</strong> Christian Rechberger (Leader), Xingran Li, Fukang Liu, Chongxu Ren, Abishanka Saha, Tianhao Wang, Tianning Wang, Yuntao Wang, Hailun Yan, Jiaqi Zheng </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Christian Rechberger (Leader), Xingran Li, Fukang Liu, Chongxu Ren, Tianhao Wang, Tianning Wang, Yuntao Wang, Hailun Yan, Jiaqi Zheng </div>
     </li>
     <li><strong>WG2-4: Specialized & Scenario-Oriented Primitives</strong><br>
       Design and analysis of primitives targeting specific constraints: e.g., Low-Latency, Lightweight/IoT, or hardware-specific optimizations.
       <br/><div class="wg-participants"><strong>Group:</strong> Shahram Rasoolzadeh (Leader), Jens Alich, Bishwajit Chakraborty, Shibam Ghosh, Kai Hu, Tao Huang, Shuo Peng, Phuong Pham </div>
     </li>
     <li><strong>WG2-5: Quantum Provable Security</strong>
-      <br/><div class="wg-participants"><strong>Group:</strong> Xiaoning Guo, Ashwin Jha, Sougata Mandal, Wenjie Nan, Rentaro Shiba, Amlan Sinha </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Xiaoning Guo, Ashwin Jha, Sougata Mandal, Wenjie Nan, Abishanka Saha, Rentaro Shiba, Amlan Sinha </div>
     </li>
   </ul>
 </div>
