@@ -27,6 +27,9 @@ permalink: /
     <p class="mb-0 opacity-90">
       The workshop is held just after the <a href="https://informatik.rub.de/symcrypt/springschool2026/" style="color: white; text-decoration: underline; opacity: 0.9;">Spring School on Symmetric Cryptography</a> (16–18 March 2026) and before <a href="https://fse.iacr.org/2026" style="color: white; text-decoration: underline; opacity: 0.9;">FSE/ToSC 2026</a> (23–27 March 2026, Singapore).
     </p>
+    <p class="mb-0 opacity-90">
+      ⓘ Last content update: 18 March 2026 (Room arrangements)
+    </p>
   </div>
 </div>
 
