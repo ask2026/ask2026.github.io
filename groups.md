@@ -89,35 +89,35 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
 </div> -->
 
 
-| Room no. | Thu, Mar 19 | Fri, Mar 20 | Sat, Mar 21 | Sun, Mar 22 |
-|----------|-------------|-------------|-------------|-------------|
-| SPMS | 
-| SPMS-TR+3 (04-06) | WG1-1B | WG1-1B | WG1-1B |
-| SPMS-TR+5 (04-04) | WG1-2B | - | - | - |
-| SPMS-TR+6 (04-03) | WG1-1C | WG1-1C | WG1-1C | - |
-| SPMS-TR+7 (04-02) | - | WG1-1A | WG1-1A | - |
-| SPMS-TR+8 (04-12) | - | WG1-2B | WG1-2B | - |
-| SPMS-TR+10 (04-10) | WG1-2A | WG1-2A | WG1-2A | - |
-| SPMS-TR+12 (05-06) | - | WG1-3 | WG1-3 | - |
-| SPMS-TR+16 (05-02) | - | - | - | Free for all |
-| North spine |
-| TR+21 (NS4-05-99) | WG1-2B | Free for all | Free for all |
-| TR+22 (NS4-05-100) | WG2-3 | - | - | - |
-| TR+29 (NS2-05-22) | WG1-4 | - | - | - |
-| The Hive |
-| LHS-TR+24 (B2-01) | - | WG1-4 | WG1-4 | - |
-| LHS-TR+25 (B2-02) | WG2-4 | WG2-4 | WG2-4 | - |
-| LHS-TR+26 (B2-03) | - | WG2-2A | WG2-2A | - |
-| LHS-TR+30 (B2-07) | - | WG2-2B | WG2-2B | - |
-| LHS-TR+35 (B1-01) | - | WG2-3 | - | - |
-| LHS-TR+38 (B1-04) | - | WG2-1 | WG2-1 | - |
-| LHS-TR+42 (B1-08) | WG1-1A + WG2-1 | - | WG3-2 | - |
-| LHS-TR+46 (01-05) | - | WG2-5 | WG2-5 | - |
-| LHS-TR+49 (02-03) | WG1-3 + WG2-5 | - | - | Free for all |
-| LHS-TR+51 (02-05) | WG2-2A + WG3-2 | - | WG2-3 | Free for all |
-| LHS-TR+54 (02-08) | - | WG3-2 | - | Free for all |
-| LHS-TR+50 (02-04) | - | - | - | Free for all |
-| LHS-TR+48 (02-02) | - | - | - | Free for all |
-| LHS-TR+52 (02-06) | - | - | - | Free for all |
-| LHS-TR+53 (02-07) | - | - | - | Free for all |
-| LHS-TR+55 (03-01) | - | - | - | Free for all |
+| Room no.           | Thu, Mar 19    | Fri, Mar 20  | Sat, Mar 21  | Sun, Mar 22  |
+| ------------------ | -------------- | ------------ | ------------ | ------------ |
+| SPMS               |
+| SPMS-TR+3 (04-06)  | WG1-1B         | WG1-1B       | WG1-1B       |
+| SPMS-TR+5 (04-04)  | WG1-2B         | -            | -            | -            |
+| SPMS-TR+6 (04-03)  | WG1-1C         | WG1-1C       | WG1-1C       | -            |
+| SPMS-TR+7 (04-02)  | -              | WG1-1A       | WG1-1A       | -            |
+| SPMS-TR+8 (04-12)  | -              | WG1-2B       | WG1-2B       | -            |
+| SPMS-TR+10 (04-10) | WG1-2A         | WG1-2A       | WG1-2A       | -            |
+| SPMS-TR+12 (05-06) | -              | WG1-3        | WG1-3        | -            |
+| SPMS-TR+16 (05-02) | -              | -            | -            | Free for all |
+| North spine        |
+| TR+21 (NS4-05-99)  | WG2-2B         | Free for all | Free for all |
+| TR+22 (NS4-05-100) | WG2-3          | -            | -            | -            |
+| TR+29 (NS2-05-22)  | WG1-4          | -            | -            | -            |
+| The Hive           |
+| LHS-TR+24 (B2-01)  | -              | WG1-4        | WG1-4        | -            |
+| LHS-TR+25 (B2-02)  | WG2-4          | WG2-4        | WG2-4        | -            |
+| LHS-TR+26 (B2-03)  | -              | WG2-2A       | WG2-2A       | -            |
+| LHS-TR+30 (B2-07)  | -              | WG2-2B       | WG2-2B       | -            |
+| LHS-TR+35 (B1-01)  | -              | WG2-3        | -            | -            |
+| LHS-TR+38 (B1-04)  | -              | WG2-1        | WG2-1        | -            |
+| LHS-TR+42 (B1-08)  | WG1-1A + WG2-1 | -            | WG3-2        | -            |
+| LHS-TR+46 (01-05)  | -              | WG2-5        | WG2-5        | -            |
+| LHS-TR+48 (02-02)  | -              | -            | -            | Free for all |
+| LHS-TR+49 (02-03)  | WG1-3 + WG2-5  | -            | -            | Free for all |
+| LHS-TR+50 (02-04)  | -              | -            | -            | Free for all |
+| LHS-TR+51 (02-05)  | WG2-2A + WG3-2 | -            | WG2-3        | Free for all |
+| LHS-TR+52 (02-06)  | -              | -            | -            | Free for all |
+| LHS-TR+53 (02-07)  | -              | -            | -            | Free for all |
+| LHS-TR+54 (02-08)  | -              | WG3-2        | -            | Free for all |
+| LHS-TR+55 (03-01)  | -              | -            | -            | Free for all |
