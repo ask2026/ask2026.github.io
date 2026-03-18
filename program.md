@@ -14,8 +14,7 @@ permalink: /program/
 <div class="alert alert-info mt-4" role="alert">
   <ol class="content-list schedule-notes-list" style="margin-top: 0.8rem;">
     <li>
-      For the exact locations of the lecture theatres and discussion rooms, please refer to <a target="_blank" href="https://wis.ntu.edu.sg/pls/webexe88/FBSDOCU.FBSLOCATN">this site</a>.
-      You may find the rooms using the following map tools: NTU mobile app "NTU Omnibus", and <a target="_blank" href="https://maps.ntu.edu.sg">NTU map website</a>.
+      You may find the rooms using the following map tools: NTU mobile app "NTU Omnibus", and <a target="_blank" href="https://maps.ntu.edu.sg">NTU map website</a>. For NTU facility location, please refer to <a target="_blank" href="https://wis.ntu.edu.sg/pls/webexe88/FBSDOCU.FBSLOCATN">this site</a>.
     </li>
     <li>
       For details of the invited talks, please refer to the <a href="/invited">Invited Speakers</a> page; 
@@ -30,8 +29,8 @@ permalink: /program/
     <thead>
       <tr>
         <th>Time</th>
-        <th>Mar 19, 2026<br/>SPMS-LT1 (Level 4)</th>
-        <th>Mar 20, 2026<br/>Tan Chin Tuan LT</th>
+        <th>Mar 19, 2026<br/><a target="_blank" href="https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26zlevel%3D4%26center%3D103.682070%2C1.342047%26zoom%3D18.8%26campusid%3D2123%26sharepoitype%3Didentifier%26sharepoi%3DSPMS-04-07">SPMS-LT1 (Level 4)</a></th>
+        <th>Mar 20, 2026<br/><a target="_blank" href="https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26campusid%3D2123%26zlevel%3D2%26center%3D103.681153%2C1.345246%26zoom%3D18%26sharepoitype%3Didentifier%26sharepoi%3DNS4-02-36%26search%3DTCT-LT">Tan Chin Tuan LT</a></th>
         <th>Mar 21, 2026<br/>SPMS-LT1 (Level 4)</th>
         <th>Mar 22, 2026</th>
       </tr>
@@ -161,8 +160,8 @@ permalink: /program/
     <li>Break caterings are hosted at SPMS Atrium (Level 3).</li>
     <li>All invited talks are 30 minutes long, including a 5-minute Q&A. The talk sessions are hosted at:
       <ul class="content-list" style="margin: 0.5rem 0 0 1.5rem; padding-left: 0;">
-        <li>SPMS-LT1 (Level 4), Mar 19 and Mar 21</li>
-        <li>Tan Chin Tuan Lecture Theatre, Mar 20</li>
+        <li>SPMS-LT1 (Level 4), Mar 19 and Mar 21. SPMS-LT1 is a lecture theatre located in the School of Physical and Mathematical Sciences (SPMS); see the <a target="_blank" href="https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26zlevel%3D4%26center%3D103.682639%2C1.342332%26zoom%3D19.1%26campusid%3D2123%26sharepoitype%3Didentifier%26sharepoi%3DSPMS-04-07">map link</a>.</li>
+        <li>Tan Chin Tuan Lecture Theatre, Mar 20. See <a target="_blank" href="https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26campusid%3D2123%26zlevel%3D2%26center%3D103.681153%2C1.345246%26zoom%3D18%26sharepoitype%3Didentifier%26sharepoi%3DNS4-02-36%26search%3DTCT-LT">map link</a>.</li>
       </ul>
     </li>
     <li>Working group discussions are organized by session leaders. Please refer to <a href="{{ '/groups/' | relative_url }}" style="color: var(--primary-color); font-weight: 500;">Group Sessions</a> for participant & room details. <strong>Note that the rooms have different available periods.</strong></li> 

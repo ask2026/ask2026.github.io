@@ -94,12 +94,7 @@ The following sub-topics are simply intended as a framework to help ensure every
 <h2 class="h4 fw-bold text-dark mb-4">Room Arrangement & Available Period</h2>
 
 <div class="alert alert-info mt-4" role="alert">
-  <!-- <ol class="content-list schedule-notes-list" style="margin-top: 0.8rem;">
-    <li> -->
-      For the exact locations of the lecture theatres and discussion rooms, please refer to <a target="_blank" href="https://wis.ntu.edu.sg/pls/webexe88/FBSDOCU.FBSLOCATN">this site</a>.
-      You may find the rooms using the following map tools: NTU mobile app "NTU Omnibus", and <a target="_blank" href="https://maps.ntu.edu.sg">NTU map website</a>.
-    <!-- </li>
-  </ol> -->
+  You may find the rooms using the following map tools: NTU mobile app "NTU Omnibus", and <a target="_blank" href="https://maps.ntu.edu.sg">NTU map website</a>. For NTU facility location, please refer to <a target="_blank" href="https://wis.ntu.edu.sg/pls/webexe88/FBSDOCU.FBSLOCATN">this site</a>.
 </div>
 
 <div class="table-responsive mb-4" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
