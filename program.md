@@ -132,6 +132,7 @@ permalink: /program/
 <div class="alert alert-info mt-4" role="alert">
   <strong>Schedule Notes:</strong>
   <ol class="content-list schedule-notes-list" style="margin-top: 0.8rem;">
+    <li>Hover over cells marked with "<span class="hover-hint">ⓘ</span>" to view full speaker name and talk title.</li>
     <li>Bold horizontal lines indicate break periods: 
       <ul class="content-list" style="margin: 0.5rem 0 0 1.5rem; padding-left: 0;">
         <li>10:30-11:00: Coffee Break (all days, Mar 19-21)</li>
@@ -139,8 +140,12 @@ permalink: /program/
         <li>15:30-16:00: Coffee Break (all days, Mar 19-21)</li>
       </ul>
     </li>
-    <li>Hover over cells marked with "<span class="hover-hint">ⓘ</span>" to view full speaker name and talk title.</li>
-    <li>All invited talks are 30 minutes long, including a 5-minute Q&A. </li>
-    <li>Working group discussions are organized by session leaders (see <a href="{{ '/groups/' | relative_url }}" style="color: var(--primary-color); font-weight: 500;">Group Sessions</a> for details).</li>
+    <li>All invited talks are 30 minutes long, including a 5-minute Q&A. The talk sessions are hosted at:
+      <ul class="content-list" style="margin: 0.5rem 0 0 1.5rem; padding-left: 0;">
+        <li>SPMS LT1, Mar 19 and Mar 21</li>
+        <li>Tan Chin Tuan LT, Mar 20</li>
+      </ul>
+    </li>
+    <li>Working group discussions are organized by session leaders. Please refer to <a href="{{ '/groups/' | relative_url }}" style="color: var(--primary-color); font-weight: 500;">Group Sessions</a> for participant & room details.</li>
   </ol>
 </div>

@@ -25,13 +25,13 @@ The following sub-topics are simply intended as a framework to help ensure every
   <ul class="content-list">
     <li><strong>WG1-1: Classical Cryptanalysis</strong><br>
       Broadly covering foundational cryptanalysis of primitives, including block ciphers, stream ciphers, permutations, hash functions, MACs, and AEAD.
-      <br/><div class="wg-participants"><strong>Group A:</strong> Dhiman Saha (Leader), Keita Ishizuka, Zhuoxi Lin, Yong Liu, Zhengrong Lu, Zhongxin Zhang </div>
+      <br/><div class="wg-participants"><strong>Group A:</strong> Dhiman Saha (Leader), Alexander Bille, Keita Ishizuka, Zhuoxi Lin, Yong Liu, Zhengrong Lu, Zhongxin Zhang </div>
       <br/><div class="wg-participants"><strong>Group B:</strong> Antonio Florez-Gutierrez (Leader), Debasmita Chakraborty, Haoran Li, Xiaoen Lin, María Naya-Plasencia, Ricardo Rodriguez-Reveco, Qianqian Yang, Zhuolong Zhang </div>
       <br/><div class="wg-participants"><strong>Group C:</strong> Gaëtan Leurent (Leader), Merlin Fruchon, Jiahui He, Huimin Liu, Florent Mazelet, Patrick Neumann, Ling Song, Xiaomeng Sun, Zhiyu Zhang </div>
     </li>
     <li><strong>WG1-2: Automated & AI-Assisted Cryptanalysis</strong><br>
       Focusing on the use of automated tools (e.g., SAT/SMT/MILP/CP solvers) and machine learning techniques in cryptanalytic tasks.
-      <br/><div class="wg-participants"><strong>Group A:</strong> Zhenzhen Bao, Jhelum Dhar, Patrick Derbez, Anup Kumar Kundu, Jinyu Lu, Dilip Sau, Jianhua Wang, Wenhui Wu </div>
+      <br/><div class="wg-participants"><strong>Group A:</strong> Roberto Avanzi, Zhenzhen Bao, Jhelum Dhar, Patrick Derbez, Anup Kumar Kundu, Jinyu Lu, Dilip Sau, Jianhua Wang, Wenhui Wu </div>
       <br/><div class="wg-participants"><strong>Group B:</strong> Dachao Wang (Leader), Chengcheng Chang, Tor Kristian Ellingsen, Simon Gerhalter, Hosein Hadipour, Huina Li, Guozhen Liu, Bastien Michel, Yantian Shen </div>
     </li>
     <li><strong>WG1-3: Quantum Cryptanalysis</strong><br>
