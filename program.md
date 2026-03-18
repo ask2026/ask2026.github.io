@@ -11,15 +11,28 @@ permalink: /program/
   <p>Subject to minor adjustments</p>
 </div>
 
+<div class="alert alert-info mt-4" role="alert">
+  <ol class="content-list schedule-notes-list" style="margin-top: 0.8rem;">
+    <li>
+      For the exact locations of the lecture halls and tutorial rooms, please refer to <a target="_blank" href="https://wis.ntu.edu.sg/pls/webexe88/FBSDOCU.FBSLOCATN">this site</a>.
+      You may find the rooms using the following map tools: NTU mobile app "NTU Omnibus", and <a target="_blank" href="https://maps.ntu.edu.sg">NTU map website</a>.
+    </li>
+    <li>
+      For details of the invited talks, please refer to the <a href="/invited">Invited Speakers</a> page; 
+      for group discussions, see the <a href="/groups">Group Sessions</a> page.
+    </li>
+  </ol>
+</div>
+
 <!-- 日程核心表格 -->
 <div class="table-responsive">
   <table class="content-table program-schedule">
     <thead>
       <tr>
         <th>Time</th>
-        <th>Mar 19, 2026</th>
-        <th>Mar 20, 2026</th>
-        <th>Mar 21, 2026</th>
+        <th>Mar 19, 2026<br/>SPMS-LT1 (Level 4)</th>
+        <th>Mar 20, 2026<br/>Tan Chin Tuan LT</th>
+        <th>Mar 21, 2026<br/>SPMS-LT1 (Level 4)</th>
         <th>Mar 22, 2026</th>
       </tr>
     </thead>
@@ -113,18 +126,18 @@ permalink: /program/
           <span class="speaker-initials">B. Zhang</span>
           <span class="hover-hint">ⓘ</span>
         </td>
-        <td class="discussion-cell">Group Discussion</td>
+        <td>No Activities</td>
       </tr>
       <!-- 午餐休息分隔行 - 无单元格，仅加粗分隔线 -->
       <!-- <tr class="break-row lunch-break"></tr> -->
       <tr>
         <td>12:30 - 14:00</td>
         <td colspan=3 style="text-align:center">Lunch Break</td>
+        <td rowspan="4">No Activities</td>
       </tr>
       <tr>
         <td>14:00 - 15:30</td>
         <td colspan=3 style="text-align:center" class="discussion-cell">Group Discussion</td>
-        <td rowspan="3">No Scheduled Activities</td>
       </tr>
       <!-- 下午咖啡休息分隔行 - 无单元格，仅加粗分隔线 -->
       <!-- <tr class="break-row coffee-break"></tr> -->
@@ -145,13 +158,7 @@ permalink: /program/
   <strong>Schedule Notes:</strong>
   <ol class="content-list schedule-notes-list" style="margin-top: 0.8rem;">
     <li>Hover over cells marked with "<span class="hover-hint">ⓘ</span>" to view full speaker name and talk title.</li>
-    <li>Break caterings are hosted at SPMS Atrium (Level 3). 
-      <!-- <ul class="content-list" style="margin: 0.5rem 0 0 1.5rem; padding-left: 0;">
-        <li>10:30-11:00: Coffee Break (all days, Mar 19-21)</li>
-        <li>12:30-14:00: Lunch Break (all days, Mar 19-21)</li>
-        <li>15:30-16:00: Coffee Break (all days, Mar 19-21)</li>
-      </ul> -->
-    </li>
+    <li>Break caterings are hosted at SPMS Atrium (Level 3).</li>
     <li>All invited talks are 30 minutes long, including a 5-minute Q&A. The talk sessions are hosted at:
       <ul class="content-list" style="margin: 0.5rem 0 0 1.5rem; padding-left: 0;">
         <li>SPMS-LT1 (Level 4), Mar 19 and Mar 21</li>

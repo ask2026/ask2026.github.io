@@ -91,7 +91,7 @@ The following sub-topics are simply intended as a framework to help ensure every
 </div> -->
 
 <br/>
-<h2 class="h4 fw-bold text-dark mb-4">Room Arrangement</h2>
+<h2 class="h4 fw-bold text-dark mb-4">Room Arrangement & Available Period</h2>
 
 <div class="table-responsive mb-4" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
   <table class="content-table">
