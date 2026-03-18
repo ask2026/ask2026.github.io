@@ -23,26 +23,26 @@ permalink: /registration/
 
 <!-- 现场注册标题+表格 - 优化排版 -->
 <h2 class="h4 fw-bold text-dark mb-4">On-site Registration</h2>
-<p class="mb-3">On-site registration will take place at the <strong>SPMS</strong> (School of Physical and Mathematical Sciences), NTU, during the following times:</p>
+<p class="mb-3">On-site registration will take place at the <strong>SPMS Atrium</strong>, School of Physical and Mathematical Sciences, NTU, during the following times:</p>
 
 <div class="registration-table mb-5">
   <table class="table table-sm table-bordered">
     <thead>
       <tr>
         <th class="text-center">Date</th>
-        <th class="text-center">Place</th>
+        <!-- <th class="text-center">Place</th> -->
         <th class="text-center">Time</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>18 March 2026 (Wednesday)</td>
-        <td>SPMS Atrium (Level 3)</td>
+        <!-- <td>SPMS Atrium (Level 3)</td> -->
         <td class="text-center">17:00 – 20:00</td>
       </tr>
       <tr>
         <td>19 March 2026 (Thursday)</td>
-        <td>SPMS LT1 (Level 4)</td>
+        <!-- <td>SPMS LT1 (Level 4)</td> -->
         <td class="text-center">08:00 – 09:00</td>
       </tr>
     </tbody>
