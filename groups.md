@@ -40,7 +40,7 @@ The following sub-topics are simply intended as a framework to help ensure every
     </li>
     <li><strong>WG1-4: Security Evaluation of AI Models</strong><br>
       Applying cryptanalytic methodologies to assess the robustness and privacy of AI systems.
-      <br/><div class="wg-participants"><strong>Group:</strong> Tim Beyne (Leader), Nitesh Singh Bhadouria, Shiyao Chen, Wonseok Choi, Chandan Dey, Baptiste Germon, Sajani Kundu, Yevhen Perehuda, Xiaokang Qi, Yiran Yao </div>
+      <br/><div class="wg-participants"><strong>Group:</strong> Tim Beyne (Leader), Nitesh Singh Bhadouria, Shiyao Chen, Wonseok Choi, Baptiste Germon, Guilhem Jazeron, Sajani Kundu, Yevhen Perehuda, Xiaokang Qi, Yiran Yao </div>
     </li>
     <!-- <li><strong>WG1-5: [Other Proposed Topics]</strong></li> -->
   </ul>
@@ -92,6 +92,15 @@ The following sub-topics are simply intended as a framework to help ensure every
 
 <br/>
 <h2 class="h4 fw-bold text-dark mb-4">Room Arrangement & Available Period</h2>
+
+<div class="alert alert-info mt-4" role="alert">
+  <!-- <ol class="content-list schedule-notes-list" style="margin-top: 0.8rem;">
+    <li> -->
+      For the exact locations of the lecture theatres and discussion rooms, please refer to <a target="_blank" href="https://wis.ntu.edu.sg/pls/webexe88/FBSDOCU.FBSLOCATN">this site</a>.
+      You may find the rooms using the following map tools: NTU mobile app "NTU Omnibus", and <a target="_blank" href="https://maps.ntu.edu.sg">NTU map website</a>.
+    <!-- </li>
+  </ol> -->
+</div>
 
 <div class="table-responsive mb-4" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
   <table class="content-table">

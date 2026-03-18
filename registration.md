@@ -58,13 +58,13 @@ permalink: /registration/
     alt="SPMS Main Entrance, NTU" 
     class="registration-img-thumbnail"
     data-bs-toggle="modal" 
-    data-bs-target="#atriumImageModal"
+    data-bs-target="#entranceImageModal"
   >
   <p class="mt-2 text-muted small text-center">Click the image to enlarge</p>
 </div>
 
 <!-- 图片放大模态框 -->
-<div class="modal fade" id="atriumImageModal" tabindex="-1" aria-labelledby="atriumImageModalLabel" aria-hidden="true">
+<div class="modal fade" id="entranceImageModal" tabindex="-1" aria-labelledby="registrImageModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content rounded-8 shadow-md">
       <div class="modal-header border-0 pb-0 px-4"> <!-- 增加水平内边距 -->
@@ -81,7 +81,7 @@ permalink: /registration/
 </div>
 
 <!-- 图片：缩略图+点击放大模态框 -->
-<h3 class="h5 fw-medium text-dark mb-3">SPMS Atrium</h3>
+<h3 class="h5 fw-medium text-dark mb-3">SPMS Atrium Registration Site</h3>
 <div class="registration-img-container mb-4">
   <!-- 缩略图 -->
   <img 
@@ -91,7 +91,7 @@ permalink: /registration/
     data-bs-toggle="modal" 
     data-bs-target="#atriumImageModal"
   >
-  <p class="mt-2 text-muted small text-center">Click the image to enlarge</p>
+  <p class="mt-2 text-muted small text-center">SPMS Atrium</p>
 </div>
 
 <!-- 图片放大模态框 -->
@@ -106,6 +106,35 @@ permalink: /registration/
       </div>
       <div class="modal-footer border-0 pt-2 pb-3 px-4"> <!-- 同步增加水平内边距 -->
         <span class="text-muted small">SPMS Atrium, NTU</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="registration-img-container mb-4">
+  <!-- 缩略图 -->
+  <img 
+    src="/assets/images/registration-site.jpg" 
+    alt="Registration Site, NTU" 
+    class="registration-img-thumbnail"
+    data-bs-toggle="modal" 
+    data-bs-target="#registrImageModal"
+  >
+  <p class="mt-2 text-muted small text-center">Registration Site</p>
+</div>
+
+<!-- 图片放大模态框 -->
+<div class="modal fade" id="registrImageModal" tabindex="-1" aria-labelledby="registrImageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-8 shadow-md">
+      <div class="modal-header border-0 pb-0 px-4"> <!-- 增加水平内边距 -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-4"> <!-- 关键：将p-0改为p-4，给图片加内边距 -->
+        <img src="/assets/images/registration-site.jpg" alt="Registration Site, NTU" class="img-fluid rounded-6"> <!-- 图片单独加圆角 -->
+      </div>
+      <div class="modal-footer border-0 pt-2 pb-3 px-4"> <!-- 同步增加水平内边距 -->
+        <span class="text-muted small">Registration Site, NTU</span>
       </div>
     </div>
   </div>
