@@ -25,8 +25,8 @@ The following sub-topics are simply intended as a framework to help ensure every
   <ul class="content-list">
     <li><strong>WG1-1: Classical Cryptanalysis</strong><br>
       Broadly covering foundational cryptanalysis of primitives, including block ciphers, stream ciphers, permutations, hash functions, MACs, and AEAD.
-      <br/><div class="wg-participants"><strong>Group A:</strong> Dhiman Saha (Leader), Alexander Bille, Keita Ishizuka, Zhuoxi Lin, Yong Liu, Zhengrong Lu, Zhongxin Zhang </div>
-      <br/><div class="wg-participants"><strong>Group B:</strong> Antonio Florez-Gutierrez (Leader), Debasmita Chakraborty, Haoran Li, Xiaoen Lin, María Naya-Plasencia, Ricardo Rodriguez-Reveco, Qianqian Yang, Zhuolong Zhang </div>
+      <br/><div class="wg-participants"><strong>Group A:</strong> Dhiman Saha (Leader), Alexander Bille, Keita Ishizuka, Xiaoen Lin, Zhuoxi Lin, Yong Liu, Zhengrong Lu</div>
+      <br/><div class="wg-participants"><strong>Group B:</strong> Antonio Florez-Gutierrez (Leader), Debasmita Chakraborty, Haoran Li, María Naya-Plasencia, Ricardo Rodriguez-Reveco, Qianqian Yang, Zhongxin Zhang, Zhuolong Zhang </div>
       <br/><div class="wg-participants"><strong>Group C:</strong> Gaëtan Leurent (Leader), Merlin Fruchon, Jiahui He, Huimin Liu, Florent Mazelet, Patrick Neumann, Ling Song, Xiaomeng Sun, Zhiyu Zhang </div>
     </li>
     <li><strong>WG1-2: Automated & AI-Assisted Cryptanalysis</strong><br>
@@ -111,51 +111,51 @@ The following sub-topics are simply intended as a framework to help ensure every
       </tr>
       <tr>
         <td>SPMS-TR+3 (04-06)</td>
-        <td class="table-wg">WG1-1B</td>
-        <td class="table-wg">WG1-1B</td>
-        <td class="table-wg">WG1-1B</td>
+        <td class="table-wg">WG1-1B<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-1B<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-1B<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>SPMS-TR+5 (04-04)</td>
-        <td class="table-wg">WG1-2B</td>
+        <td class="table-wg">WG1-2B<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>SPMS-TR+6 (04-03)</td>
-        <td class="table-wg">WG1-1C</td>
-        <td class="table-wg">WG1-1C</td>
-        <td class="table-wg">WG1-1C</td>
+        <td class="table-wg">WG1-1C<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-1C<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-1C<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>SPMS-TR+7 (04-02)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG1-1A</td>
-        <td class="table-wg">WG1-1A</td>
+        <td class="table-wg">WG1-1A<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-1A<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>SPMS-TR+8 (04-12)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG1-2B</td>
-        <td class="table-wg">WG1-2B</td>
+        <td class="table-wg">WG1-2B<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-2B<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>SPMS-TR+10 (04-10)</td>
-        <td class="table-wg">WG1-2A</td>
-        <td class="table-wg">WG1-2A</td>
-        <td class="table-wg">WG1-2A</td>
+        <td class="table-wg">WG1-2A<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-2A<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-2A<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>SPMS-TR+12 (05-06)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG1-3</td>
-        <td class="table-wg">WG1-3</td>
+        <td class="table-wg">WG1-3<br/><small>13:00-17:30</small></td>
+        <td class="table-wg">WG1-3<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
@@ -163,7 +163,7 @@ The following sub-topics are simply intended as a framework to help ensure every
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all<br/><small>09:00-20:00</small></td>
       </tr>
       <!-- 区域：North spine -->
       <tr class="table-region-row">
@@ -171,21 +171,21 @@ The following sub-topics are simply intended as a framework to help ensure every
       </tr>
       <tr>
         <td>TR+21 (NS4-05-99)</td>
-        <td class="table-wg">WG2-2B</td>
-        <td class="table-free">Free for all</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-wg">WG2-2B<br/><small>13:00-18:00</small></td>
+        <td class="table-free">Free for all<br/><small>13:00-17:30</small></td>
+        <td class="table-free">Free for all<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>TR+22 (NS4-05-100)</td>
-        <td class="table-wg">WG2-3</td>
+        <td class="table-wg">WG2-3<br/><small>13:00-18:00</small></td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>TR+29 (NS2-05-22)</td>
-        <td class="table-wg">WG1-4</td>
+        <td class="table-wg">WG1-4<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
@@ -197,57 +197,57 @@ The following sub-topics are simply intended as a framework to help ensure every
       <tr>
         <td>LHS-TR+24 (B2-01)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG1-4</td>
-        <td class="table-wg">WG1-4</td>
+        <td class="table-wg">WG1-4<br/><small>14:30-17:30</small></td>
+        <td class="table-wg">WG1-4<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>LHS-TR+25 (B2-02)</td>
-        <td class="table-wg">WG2-4</td>
-        <td class="table-wg">WG2-4</td>
-        <td class="table-wg">WG2-4</td>
+        <td class="table-wg">WG2-4<br/><small>14:00-18:00</small></td>
+        <td class="table-wg">WG2-4<br/><small>14:30-18:00</small></td>
+        <td class="table-wg">WG2-4<br/><small>13:00-18:00</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>LHS-TR+26 (B2-03)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG2-2A</td>
-        <td class="table-wg">WG2-2A</td>
+        <td class="table-wg">WG2-2A<br/><small>14:00-17:30</small></td>
+        <td class="table-wg">WG2-2A<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>LHS-TR+30 (B2-07)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG2-2B</td>
-        <td class="table-wg">WG2-2B</td>
+        <td class="table-wg">WG2-2B<br/><small>14:30-17:30</small></td>
+        <td class="table-wg">WG2-2B<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>LHS-TR+35 (B1-01)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG2-3</td>
+        <td class="table-wg">WG2-3<br/><small>13:00-18:00</small></td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>LHS-TR+38 (B1-04)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG2-1</td>
-        <td class="table-wg">WG2-1</td>
+        <td class="table-wg">WG2-1<br/><small>14:30-17:30</small></td>
+        <td class="table-wg">WG2-1<br/><small>13:00-17:30</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>LHS-TR+42 (B1-08)</td>
-        <td class="table-wg">WG1-1A + WG2-1</td>
+        <td class="table-wg">WG1-1A + WG2-1<br/><small>13:00-18:00</small></td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG3-2</td>
+        <td class="table-wg">WG3-2<br/><small>13:00-18:00</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
         <td>LHS-TR+46 (01-05)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG2-5</td>
-        <td class="table-wg">WG2-5</td>
+        <td class="table-wg">WG2-5<br/><small>13:30-18:00</small></td>
+        <td class="table-wg">WG2-5<br/><small>13:30-18:00</small></td>
         <td class="table-empty">—</td>
       </tr>
       <tr>
@@ -255,56 +255,56 @@ The following sub-topics are simply intended as a framework to help ensure every
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all<br/><small>08:30-17:00</small></td>
       </tr>
       <tr>
         <td>LHS-TR+49 (02-03)</td>
-        <td class="table-wg">WG1-3 + WG2-5</td>
+        <td class="table-wg">WG1-3 + WG2-5<br/><small>13:00-18:00</small></td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all<br/><small>08:30-17:00</small></td>
       </tr>
       <tr>
         <td>LHS-TR+50 (02-04)</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all<br/><small>08:30-17:00</small></td>
       </tr>
       <tr>
         <td>LHS-TR+51 (02-05)</td>
-        <td class="table-wg">WG2-2A + WG3-2</td>
+        <td class="table-wg">WG2-2A + WG3-2<br/><small>13:30-18:00</small></td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG2-3</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-wg">WG2-3<br/><small>13:00-18:00</small></td>
+        <td class="table-free">Free for all<br/><small>08:30-17:00</small></td>
       </tr>
       <tr>
         <td>LHS-TR+52 (02-06)</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all<br/><small>08:30-17:00</small></td>
       </tr>
       <tr>
         <td>LHS-TR+53 (02-07)</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all<br/><small>08:30-17:00</small></td>
       </tr>
       <tr>
         <td>LHS-TR+54 (02-08)</td>
         <td class="table-empty">—</td>
-        <td class="table-wg">WG3-2</td>
+        <td class="table-wg">WG3-2<br/><small>13:00-18:00</small></td>
         <td class="table-empty">—</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all<br/><small>08:30-17:00</small></td>
       </tr>
       <tr>
         <td>LHS-TR+55 (03-01)</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
         <td class="table-empty">—</td>
-        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all<br/><small>08:30-17:00</small></td>
       </tr>
     </tbody>
   </table>

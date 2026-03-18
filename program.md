@@ -68,7 +68,11 @@ permalink: /program/
         </td>
       </tr>
       <!-- 咖啡休息分隔行 - 无单元格，仅加粗分隔线 -->
-      <tr class="break-row coffee-break"></tr>
+      <!-- <tr class="break-row coffee-break"></tr> -->
+      <tr>
+        <td>10:30 - 11:00</td>
+        <td colspan=3 style="text-align:center">Coffee Break</td>
+      </tr>
       <tr>
         <td>11:00 - 11:30</td>
         <td class="speaker-cell" title="Jonathan Fuchs - On the Equivalence of Forgery and Key Recovery in Key-Then-Hash Functions">
@@ -112,14 +116,22 @@ permalink: /program/
         <td class="discussion-cell">Group Discussion</td>
       </tr>
       <!-- 午餐休息分隔行 - 无单元格，仅加粗分隔线 -->
-      <tr class="break-row lunch-break"></tr>
+      <!-- <tr class="break-row lunch-break"></tr> -->
+      <tr>
+        <td>12:30 - 14:00</td>
+        <td colspan=3 style="text-align:center">Lunch Break</td>
+      </tr>
       <tr>
         <td>14:00 - 15:30</td>
         <td colspan=3 style="text-align:center" class="discussion-cell">Group Discussion</td>
         <td rowspan="3">No Scheduled Activities</td>
       </tr>
       <!-- 下午咖啡休息分隔行 - 无单元格，仅加粗分隔线 -->
-      <tr class="break-row coffee-break"></tr>
+      <!-- <tr class="break-row coffee-break"></tr> -->
+      <tr>
+        <td>15:30 - 16:00</td>
+        <td colspan=3 style="text-align:center">Coffee Break</td>
+      </tr>
       <tr>
         <td>16:00 - 18:00</td>
         <td colspan=3 style="text-align:center" class="discussion-cell">Group Discussion</td>
@@ -133,19 +145,19 @@ permalink: /program/
   <strong>Schedule Notes:</strong>
   <ol class="content-list schedule-notes-list" style="margin-top: 0.8rem;">
     <li>Hover over cells marked with "<span class="hover-hint">ⓘ</span>" to view full speaker name and talk title.</li>
-    <li>Bold horizontal lines indicate break periods: 
-      <ul class="content-list" style="margin: 0.5rem 0 0 1.5rem; padding-left: 0;">
+    <li>Break caterings are hosted at SPMS Atrium (Level 3). 
+      <!-- <ul class="content-list" style="margin: 0.5rem 0 0 1.5rem; padding-left: 0;">
         <li>10:30-11:00: Coffee Break (all days, Mar 19-21)</li>
         <li>12:30-14:00: Lunch Break (all days, Mar 19-21)</li>
         <li>15:30-16:00: Coffee Break (all days, Mar 19-21)</li>
-      </ul>
+      </ul> -->
     </li>
     <li>All invited talks are 30 minutes long, including a 5-minute Q&A. The talk sessions are hosted at:
       <ul class="content-list" style="margin: 0.5rem 0 0 1.5rem; padding-left: 0;">
-        <li>SPMS LT1, Mar 19 and Mar 21</li>
-        <li>Tan Chin Tuan LT, Mar 20</li>
+        <li>SPMS-LT1 (Level 4), Mar 19 and Mar 21</li>
+        <li>Tan Chin Tuan Lecture Theatre, Mar 20</li>
       </ul>
     </li>
-    <li>Working group discussions are organized by session leaders. Please refer to <a href="{{ '/groups/' | relative_url }}" style="color: var(--primary-color); font-weight: 500;">Group Sessions</a> for participant & room details.</li>
+    <li>Working group discussions are organized by session leaders. Please refer to <a href="{{ '/groups/' | relative_url }}" style="color: var(--primary-color); font-weight: 500;">Group Sessions</a> for participant & room details. <strong>Note that the rooms have different available periods.</strong></li> 
   </ol>
 </div>
