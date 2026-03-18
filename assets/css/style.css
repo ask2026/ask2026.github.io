@@ -670,10 +670,6 @@ body {
   box-shadow: var(--shadow-sm);
 }
 
-.program-schedule a{
-  color: white;
-}
-
 /* 休息分隔行 - 加粗横线强调 */
 .program-schedule .break-row {
   height: 12px; /* 分隔线高度 */

@@ -29,8 +29,8 @@ permalink: /program/
     <thead>
       <tr>
         <th>Time</th>
-        <th>Mar 19, 2026<br/><a target="_blank" href="https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26zlevel%3D4%26center%3D103.682070%2C1.342047%26zoom%3D18.8%26campusid%3D2123%26sharepoitype%3Didentifier%26sharepoi%3DSPMS-04-07">SPMS-LT1 (Level 4)</a></th>
-        <th>Mar 20, 2026<br/><a target="_blank" href="https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26campusid%3D2123%26zlevel%3D2%26center%3D103.681153%2C1.345246%26zoom%3D18%26sharepoitype%3Didentifier%26sharepoi%3DNS4-02-36%26search%3DTCT-LT">Tan Chin Tuan LT</a></th>
+        <th>Mar 19, 2026<br/><a style="color:white;" target="_blank" href="https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26zlevel%3D4%26center%3D103.682070%2C1.342047%26zoom%3D18.8%26campusid%3D2123%26sharepoitype%3Didentifier%26sharepoi%3DSPMS-04-07">SPMS-LT1 (Level 4)</a></th>
+        <th>Mar 20, 2026<br/><a style="color:white;" target="_blank" href="https://maps.ntu.edu.sg/?mazemap_share_url=https%3A%2F%2Fuse.mazemap.com%2F%3Futm_medium%3Dlongurl%23v%3D1%26config%3Dntu-sg%26campusid%3D2123%26zlevel%3D2%26center%3D103.681153%2C1.345246%26zoom%3D18%26sharepoitype%3Didentifier%26sharepoi%3DNS4-02-36%26search%3DTCT-LT">Tan Chin Tuan LT</a></th>
         <th>Mar 21, 2026<br/>SPMS-LT1 (Level 4)</th>
         <th>Mar 22, 2026</th>
       </tr>
