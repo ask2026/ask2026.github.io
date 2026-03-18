@@ -8,14 +8,16 @@ permalink: /groups/
 <!-- 轻量化页面头部 -->
 <div class="page-header">
   <h1>Group Sessions</h1>
-  <p>Working-group list (subject to change)</p>
+  <p>Working groups and room arrangement</p>
 </div>
 
 ASK 2026 features working-group discussions in the afternoons. We aim to form several small groups, each focused on a specific topic, to foster collaboration and produce tangible research progress.
 
 The following sub-topics are simply intended as a framework to help ensure everyone is paired with fellow researchers sharing similar interests. We recognize that research in symmetric cryptography often crosses these boundaries.
 
-We deeply respect your expertise and the fresh perspectives you bring to ASK 2026. Please view these categories simply as a baseline for group formation. If you have a specific problem or a new sub-topic you would like to lead or discuss that is not listed here, we truly welcome you to propose it. Thank you!
+<!-- We deeply respect your expertise and the fresh perspectives you bring to ASK 2026. Please view these categories simply as a baseline for group formation. If you have a specific problem or a new sub-topic you would like to lead or discuss that is not listed here, we truly welcome you to propose it. Thank you! -->
+
+<h2 class="h4 fw-bold text-dark mb-4">Group List</h2>
 
 <!-- 工作组分组卡片 -->
 <div class="wg-section">
@@ -88,36 +90,222 @@ We deeply respect your expertise and the fresh perspectives you bring to ASK 202
   The final set of working groups, and their moderators, will be announced closer to the workshop.
 </div> -->
 
+<br/>
+<h2 class="h4 fw-bold text-dark mb-4">Room Arrangement</h2>
 
-| Room no.           | Thu, Mar 19    | Fri, Mar 20  | Sat, Mar 21  | Sun, Mar 22  |
-| ------------------ | -------------- | ------------ | ------------ | ------------ |
-| SPMS               |
-| SPMS-TR+3 (04-06)  | WG1-1B         | WG1-1B       | WG1-1B       |
-| SPMS-TR+5 (04-04)  | WG1-2B         | -            | -            | -            |
-| SPMS-TR+6 (04-03)  | WG1-1C         | WG1-1C       | WG1-1C       | -            |
-| SPMS-TR+7 (04-02)  | -              | WG1-1A       | WG1-1A       | -            |
-| SPMS-TR+8 (04-12)  | -              | WG1-2B       | WG1-2B       | -            |
-| SPMS-TR+10 (04-10) | WG1-2A         | WG1-2A       | WG1-2A       | -            |
-| SPMS-TR+12 (05-06) | -              | WG1-3        | WG1-3        | -            |
-| SPMS-TR+16 (05-02) | -              | -            | -            | Free for all |
-| North spine        |
-| TR+21 (NS4-05-99)  | WG2-2B         | Free for all | Free for all |
-| TR+22 (NS4-05-100) | WG2-3          | -            | -            | -            |
-| TR+29 (NS2-05-22)  | WG1-4          | -            | -            | -            |
-| The Hive           |
-| LHS-TR+24 (B2-01)  | -              | WG1-4        | WG1-4        | -            |
-| LHS-TR+25 (B2-02)  | WG2-4          | WG2-4        | WG2-4        | -            |
-| LHS-TR+26 (B2-03)  | -              | WG2-2A       | WG2-2A       | -            |
-| LHS-TR+30 (B2-07)  | -              | WG2-2B       | WG2-2B       | -            |
-| LHS-TR+35 (B1-01)  | -              | WG2-3        | -            | -            |
-| LHS-TR+38 (B1-04)  | -              | WG2-1        | WG2-1        | -            |
-| LHS-TR+42 (B1-08)  | WG1-1A + WG2-1 | -            | WG3-2        | -            |
-| LHS-TR+46 (01-05)  | -              | WG2-5        | WG2-5        | -            |
-| LHS-TR+48 (02-02)  | -              | -            | -            | Free for all |
-| LHS-TR+49 (02-03)  | WG1-3 + WG2-5  | -            | -            | Free for all |
-| LHS-TR+50 (02-04)  | -              | -            | -            | Free for all |
-| LHS-TR+51 (02-05)  | WG2-2A + WG3-2 | -            | WG2-3        | Free for all |
-| LHS-TR+52 (02-06)  | -              | -            | -            | Free for all |
-| LHS-TR+53 (02-07)  | -              | -            | -            | Free for all |
-| LHS-TR+54 (02-08)  | -              | WG3-2        | -            | Free for all |
-| LHS-TR+55 (03-01)  | -              | -            | -            | Free for all |
+<div class="table-responsive mb-4" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+  <table class="content-table">
+    <thead>
+      <tr>
+        <th>Room no.</th>
+        <th>Thu, Mar 19</th>
+        <th>Fri, Mar 20</th>
+        <th>Sat, Mar 21</th>
+        <th>Sun, Mar 22</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 区域：SPMS -->
+      <tr class="table-region-row">
+        <td colspan="5" class="table-region">SPMS</td>
+      </tr>
+      <tr>
+        <td>SPMS-TR+3 (04-06)</td>
+        <td class="table-wg">WG1-1B</td>
+        <td class="table-wg">WG1-1B</td>
+        <td class="table-wg">WG1-1B</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>SPMS-TR+5 (04-04)</td>
+        <td class="table-wg">WG1-2B</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>SPMS-TR+6 (04-03)</td>
+        <td class="table-wg">WG1-1C</td>
+        <td class="table-wg">WG1-1C</td>
+        <td class="table-wg">WG1-1C</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>SPMS-TR+7 (04-02)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG1-1A</td>
+        <td class="table-wg">WG1-1A</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>SPMS-TR+8 (04-12)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG1-2B</td>
+        <td class="table-wg">WG1-2B</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>SPMS-TR+10 (04-10)</td>
+        <td class="table-wg">WG1-2A</td>
+        <td class="table-wg">WG1-2A</td>
+        <td class="table-wg">WG1-2A</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>SPMS-TR+12 (05-06)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG1-3</td>
+        <td class="table-wg">WG1-3</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>SPMS-TR+16 (05-02)</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+      <!-- 区域：North spine -->
+      <tr class="table-region-row">
+        <td colspan="5" class="table-region">North spine</td>
+      </tr>
+      <tr>
+        <td>TR+21 (NS4-05-99)</td>
+        <td class="table-wg">WG2-2B</td>
+        <td class="table-free">Free for all</td>
+        <td class="table-free">Free for all</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>TR+22 (NS4-05-100)</td>
+        <td class="table-wg">WG2-3</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>TR+29 (NS2-05-22)</td>
+        <td class="table-wg">WG1-4</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <!-- 区域：The Hive -->
+      <tr class="table-region-row">
+        <td colspan="5" class="table-region">The Hive</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+24 (B2-01)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG1-4</td>
+        <td class="table-wg">WG1-4</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+25 (B2-02)</td>
+        <td class="table-wg">WG2-4</td>
+        <td class="table-wg">WG2-4</td>
+        <td class="table-wg">WG2-4</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+26 (B2-03)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG2-2A</td>
+        <td class="table-wg">WG2-2A</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+30 (B2-07)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG2-2B</td>
+        <td class="table-wg">WG2-2B</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+35 (B1-01)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG2-3</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+38 (B1-04)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG2-1</td>
+        <td class="table-wg">WG2-1</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+42 (B1-08)</td>
+        <td class="table-wg">WG1-1A + WG2-1</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG3-2</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+46 (01-05)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG2-5</td>
+        <td class="table-wg">WG2-5</td>
+        <td class="table-empty">—</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+48 (02-02)</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+49 (02-03)</td>
+        <td class="table-wg">WG1-3 + WG2-5</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+50 (02-04)</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+51 (02-05)</td>
+        <td class="table-wg">WG2-2A + WG3-2</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG2-3</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+52 (02-06)</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+53 (02-07)</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+54 (02-08)</td>
+        <td class="table-empty">—</td>
+        <td class="table-wg">WG3-2</td>
+        <td class="table-empty">—</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+      <tr>
+        <td>LHS-TR+55 (03-01)</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-empty">—</td>
+        <td class="table-free">Free for all</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

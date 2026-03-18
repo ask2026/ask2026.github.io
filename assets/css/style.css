@@ -770,3 +770,39 @@ body {
   border-bottom: 1px solid var(--primary-color);
   color: var(--secondary-color);
 }
+
+/* ======================
+   地点安排表格 - 视觉增强
+   复用全局CSS变量，保持风格统一
+====================== */
+/* 区域分组标题行 */
+.table-region {
+  background-color: var(--light-color) !important;
+  border-left: 3px solid var(--primary-color) !important;
+  font-weight: 600;
+  color: var(--primary-color) !important;
+}
+/* WG工作组标签高亮 */
+.table-wg {
+  color: var(--primary-color) !important;
+  font-weight: 500;
+}
+/* 免费开放标签高亮 */
+.table-free {
+  color: #28a745 !important; /* 绿色，更醒目 */
+  font-weight: 500;
+}
+/* 空值占位符样式 */
+.table-empty {
+  color: var(--text-muted) !important;
+  font-weight: 400;
+}
+/* 表格斑马纹（隔行变色，提升可读性） */
+.content-table tbody tr:not(.table-region-row):nth-child(even) {
+  background-color: rgba(var(--primary-rgb), 0.03);
+}
+/* 单元格内边距优化 */
+.content-table th, .content-table td {
+  padding: 12px 10px !important;
+  vertical-align: middle !important;
+}
