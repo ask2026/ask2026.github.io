@@ -32,7 +32,7 @@ permalink: /venue/
   <div class="callout">
     <h3>International Travel</h3>
     <p class="mb-1">
-      Singapore’s main airport: <strong>Changi Airport (SIN)</strong>
+      Singapore's main airport: <strong>Changi Airport (SIN)</strong>
     </p>
     <p class="mb-0">
       Extensive global flight connections with most countries
@@ -50,6 +50,11 @@ permalink: /venue/
         </ul>
       </li>
     </ul>
+  </div>
+
+  <div class="callout">
+    <h3>Campus Map</h3>
+    The detailed NTU campus map can be found in <a href="https://maps.ntu.edu.sg/" target="_blank" rel="noopener">this website</a>.
   </div>
 
   <div class="callout">
