@@ -135,17 +135,17 @@ permalink: /program/
         <td rowspan="4">No Activities</td>
       </tr>
       <tr>
-        <td>14:00 - 15:30</td>
+        <td>14:00 - 15:45</td>
         <td colspan=3 style="text-align:center" class="discussion-cell">Group Discussion</td>
       </tr>
       <!-- 下午咖啡休息分隔行 - 无单元格，仅加粗分隔线 -->
       <!-- <tr class="break-row coffee-break"></tr> -->
       <tr>
-        <td>15:30 - 16:00</td>
+        <td>15:45 - 16:15</td>
         <td colspan=3 style="text-align:center">Coffee Break</td>
       </tr>
       <tr>
-        <td>16:00 - 18:00</td>
+        <td>16:15 - 18:00</td>
         <td colspan=3 style="text-align:center" class="discussion-cell">Group Discussion</td>
       </tr>
     </tbody>
