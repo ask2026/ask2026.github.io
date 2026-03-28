@@ -23,12 +23,13 @@ permalink: /
     </div>
     <div class="d-flex flex-wrap gap-2">
       <a class="btn btn-primary btn-lg" href="{{ '/program/' | relative_url }}">Click Here for Program Schedule</a>
+      <a class="btn btn-primary btn-lg" href="{{ '/gallery/' | relative_url }}">&#128444;&nbsp;&nbsp;Gallery</a>
     </div>
     <p class="mb-0 opacity-90">
       The workshop is held just after the <a href="https://informatik.rub.de/symcrypt/springschool2026/" style="color: white; text-decoration: underline; opacity: 0.9;">Spring School on Symmetric Cryptography</a> (16–18 March 2026) and before <a href="https://fse.iacr.org/2026" style="color: white; text-decoration: underline; opacity: 0.9;">FSE/ToSC 2026</a> (23–27 March 2026, Singapore).
     </p>
     <p class="mb-0 opacity-90">
-      ⓘ Last content update: 6pm 20 March 2026
+      ⓘ Last content update: 1pm 28 March 2026
     </p>
   </div>
 </div>
