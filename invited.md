@@ -53,7 +53,8 @@ const speakersData = [
     talkTitle: "Puncturing Linear Key Recovery Attacks",
     keywords: ["linear cryptanalysis", "puncturing"],
     speechOrder: 2,
-    timeSlot: "Mar 19, 10:00 - 10:30"
+    timeSlot: "Mar 19, 10:00 - 10:30",
+    slides: "/assets/slides/Antonio Florez-Gutierrez.pdf"
   },
   {
     name: "Jonathan Fuchs",
@@ -77,7 +78,8 @@ const speakersData = [
     talkTitle: "Constrained Systems",
     keywords: ["PRF Security", "1k-PMAC+", "1k-LightMAC+", "Sum of Even-Mansour"],
     speechOrder: 4,
-    timeSlot: "Mar 19, 11:30 - 12:00"
+    timeSlot: "Mar 19, 11:30 - 12:00",
+    slides: "/assets/slides/Ashwin Jha.pdf"
   },
   {
     name: "Tetsu Iwata",
@@ -109,7 +111,8 @@ const speakersData = [
     talkTitle: "Security Analysis of the SHA-3 Hash Function",
     keywords: ["SHA-3", "Collision", "Preimage", "Hash Function"],
     speechOrder: 6,
-    timeSlot: "Mar 20, 09:00 - 09:30"
+    timeSlot: "Mar 20, 09:00 - 09:30",
+    slides: "/assets/slides/Meicheng Liu.pdf"
   },
   {
     name: "Kazuhiko Minematsu",
@@ -117,7 +120,8 @@ const speakersData = [
     talkTitle: "Do not Mix Models: Revisiting Generic Transforms for Committing Authenticated Encryption",
     keywords: ["Committing Authenticated Encryption", "Generic Transform", "Idealized Model"],
     speechOrder: 16,
-    timeSlot: "Mar 21, 11:30 - 12:00"
+    timeSlot: "Mar 21, 11:30 - 12:00",
+    slides: "/assets/slides/Kazuhiko Minematsu.pdf"
   },
   {
     name: "Hrithik Nandi",
@@ -125,7 +129,8 @@ const speakersData = [
     talkTitle: "Short-Input Random Oracle from Public Random Permutations",
     keywords: ["Indifferentiability", "RP-to-RF conversion", "Chaining attack"],
     speechOrder: 8,
-    timeSlot: "Mar 20, 10:00 - 10:30"
+    timeSlot: "Mar 20, 10:00 - 10:30",
+    slides: "/assets/slides/Hrithik Nandi.pdf"
   },
   {
     name: "Patrick Neumann",
@@ -133,7 +138,8 @@ const speakersData = [
     talkTitle: "Meet-in-the-Middle Attacks on Full ChiLow",
     keywords: ["Meet-in-the-Middle", "Key-Recovery Attack", "Symmetric Cryptanalysis", "ChiLow", "Key Dependencies", "State Dependencies"],
     speechOrder: 9,
-    timeSlot: "Mar 20, 11:00 - 11:30"
+    timeSlot: "Mar 20, 11:00 - 11:30",
+    slides: "/assets/slides/Patrick Neumann.pdf"
   },
   {
     name: "Christian Rechberger",
@@ -149,7 +155,8 @@ const speakersData = [
     talkTitle: "Tight Generic PRF Security of HMAC and NMAC",
     keywords: ["HMAC", "NMAC", "generic security", "provable security"],
     speechOrder: 7,
-    timeSlot: "Mar 20, 09:30 - 10:00"
+    timeSlot: "Mar 20, 09:30 - 10:00",
+    slides: "/assets/slides/Yaobin Shen.pdf"
   },
   {
     name: "Bin Zhang",
@@ -157,7 +164,8 @@ const speakersData = [
     talkTitle: "Vectorial Fast Correlation Attacks over Extension Fields",
     keywords: ["Stream ciphers", "Extension Fields", "SNOW"],
     speechOrder: 11,
-    timeSlot: "Mar 20, 12:00 - 12:30"
+    timeSlot: "Mar 20, 12:00 - 12:30",
+    slides: "/assets/slides/Bin Zhang.pdf"
   }
 ];
 
@@ -173,7 +181,10 @@ function renderSpeakers(speakers) {
     
     // 构建卡片内容（替换Speech Order为Time Slot，展示具体时间段）
     card.innerHTML = `
-      <h3>${speaker.name}</h3>
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem;">
+    <h3 style="margin: 0; flex-shrink: 1;">${speaker.name}</h3>
+    ${speaker.slides ? `<a href="${speaker.slides}" target="_blank" class="btn btn-sm btn-primary">Slides</a>` : ''}
+  </div>
       <p class="speaker-affiliation">${speaker.affiliation}</p>
       <p><span class="speaker-talk-label">Talk Title:</span> ${speaker.talkTitle}</p>
       <div class="speaker-keywords">
