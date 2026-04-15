@@ -103,7 +103,8 @@ const speakersData = [
     talkTitle: "Cryptanalysis of Algebraic Verifiable Delay Functions",
     keywords: ["Cryptanalysis", "VDF"],
     speechOrder: 13,
-    timeSlot: "Mar 21, 09:30 - 10:00"
+    timeSlot: "Mar 21, 09:30 - 10:00",
+    slides: "/assets/slides/Gaetan Leurent.pdf"
   },
   {
     name: "Meicheng Liu",
